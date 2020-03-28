@@ -5,11 +5,12 @@ namespace App\Controller;
 use App\Entity\User;
 use App\Entity\Enfant;
 use App\Entity\Groupe;
-use App\Entity\Evenement;
 use App\Form\UserType;
 use App\Form\LoginType;
 use App\Form\EnfantType;
+use App\Entity\Evenement;
 use App\Form\EvenementType;
+use App\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -24,9 +25,11 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Lexik\Bundle\JWTAuthenticationBundle\Encoder\JWTEncoderInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\Exception\BadCredentialsException;
+use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
+use Symfony\Component\HttpFoundation\File\Exception\FormSizeFileException;
+use Symfony\Component\HttpFoundation\ResponseHeaderBag;
 
 
 /**
@@ -192,7 +195,62 @@ class UserController extends AbstractController
             'Content-Type' =>  'application/json'
         ]);
     }
-   
+    /**
+     * @Route("/users", name="users_liste", methods={"GET"})
+     *  
+     */
+    public function users(UserRepository $user,SerializerInterface $serializer): Response
+    {
 
+       
+        $id=$this->getUser()->getGroupe()->getId();
+        $users=$user->findBy(array('groupe'=>$id));
+        $data = $serializer->serialize($users, 'json',['groups' => ['users']]);
+        return new Response($data, 200, [
+            'Content-Type'=>  'application/json'
+        ]);
+    }
+
+    /**
+     * @Route("/{id}/pp", name="picture_show", methods={"GET"})
+     */
+    public function pp(Request $request, User $utilisateur): Response
+    {
+        $filepath = "/home/mak/ASA/public/images/users/".$utilisateur->getImageName();
+        $filename = $utilisateur->getImageName();
+        
+        $response = new Response();
+        $disposition = $response->headers->makeDisposition(ResponseHeaderBag::DISPOSITION_INLINE, $filename);
+        $response->headers->set('Content-Disposition', $disposition);
+        $response->headers->set('Content-Type', 'image/png');
+        $response->setContent(file_get_contents($filepath));
+      
+        return $response;      
+    }
+    /**
+     * @Route("/pp", name="pictures", methods={"GET"})
+     */
+    public function pictures(UserRepository $utilisateur)
+    {
+        $user=$utilisateur->findAll();
+
+            $resp=array();
+          for($i=0;$i<count($user);$i++){
+            $response = new Response();
+
+            if($user[$i]->getImageName()==''){
+                echo'null';
+            }   
+            $filepath = "/home/mak/ASA/public/images/users/".$user[$i]->getImageName();
+            $filename = $user[$i]->getImageName();
+            $disposition = $response->headers->makeDisposition(ResponseHeaderBag::DISPOSITION_INLINE, $filename);
+            $response->headers->set('Content-Disposition', $disposition);
+            $response->headers->set('Content-Type', 'image/png');
+            $response->setContent(file_get_contents($filepath));  
+            $resp[]= $response;
+          }
+          return $response;
+            
+          return new Response(json_encode($resp));        
+    }
 }
-    

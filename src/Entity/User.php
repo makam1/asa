@@ -7,6 +7,8 @@ use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\HttpFoundation\File\File;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
+use Symfony\Component\Serializer\Annotation\Groups;
+
 
 
 /**
@@ -16,6 +18,7 @@ use Vich\UploaderBundle\Mapping\Annotation as Vich;
 class User implements UserInterface
 {
     /**
+     * @Groups({"users"})
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
@@ -23,11 +26,13 @@ class User implements UserInterface
     private $id;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="string", length=180, unique=true)
      */
     private $username;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="json")
      */
     private $roles = [];
@@ -39,41 +44,50 @@ class User implements UserInterface
     private $password;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="string", length=255,  nullable=true)
      */
     private $prenom;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="string", length=255,nullable=true)
      */
     private $nom;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="string", length=255, nullable=true, nullable=true)
      */
     private $telephone;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="date",nullable=true)
      */
     private $datenaissance;
 
     /**
+     * @Groups({"users"})
      * @ORM\ManyToOne(targetEntity="App\Entity\Groupe", inversedBy="users")
      * @ORM\JoinColumn(nullable=false)
      */
     private $groupe;
 
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $email;
     /**
+     * @Groups({"users"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $role;
 
-    /** NOTE: This is not a mapped field of entity metadata, just a simple property.
+    /** 
+     * @Groups({"users"})
+     * NOTE: This is not a mapped field of entity metadata, just a simple property.
     * 
     * @Vich\UploadableField(mapping="user_profil", fileNameProperty="imageName",)
     * 
@@ -82,6 +96,7 @@ class User implements UserInterface
    private $imageFile;
 
    /**
+    * @Groups({"users"})
     * @ORM\Column(type="string")
     *
     * @var string|null
