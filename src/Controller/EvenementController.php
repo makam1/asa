@@ -2,16 +2,20 @@
 
 namespace App\Controller;
 
+use App\Entity\User;
 use App\Entity\Evenement;
+use App\Form\Photo_profil;
 use App\Form\Evenement1Type;
 use App\Repository\EvenementRepository;
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 /**
- * @Route("/evenement")
+ * @Route("/api/evenement")
  */
 class EvenementController extends AbstractController
 {
@@ -90,5 +94,34 @@ class EvenementController extends AbstractController
         }
 
         return $this->redirectToRoute('evenement_index');
+    }
+
+    /**  
+     *
+     * @Route("/{id}/image", name="image", methods={"POST"})
+     */
+    public function editAction(Request $request,$id)
+    {
+        $profil = $this->getDoctrine()->getRepository(User::class)->find($request->get('id')); 
+        $form = $this->createForm(Photo_profil::class, $profil,array(
+            'action'=>$this->generateUrl('photo_show', array('id'=>$profil->getId())),
+        ));           
+            $file=$request->files->all()['imageFile'];
+            $profil->setImageFile($file );
+
+            $form->handleRequest($request);
+            if($profil->getImageFile()!=null){
+                $newLogoFile = $profil->getImageFile();
+                $fileName =$profil->getUsername().'.jpg';
+                $newLogoFile ->move("/home/mak/ASA/public/images/users/", $fileName);
+            }
+            else{
+                return new JsonResponse('Aucune photo choisie',200, [
+                    'Content-Type' =>  'application/json'
+                ]);
+            }
+            return new JsonResponse('Photo de profil modifié',200, [
+                'Content-Type' =>  'application/json'
+            ]); 
     }
 }

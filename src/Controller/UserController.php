@@ -8,6 +8,7 @@ use App\Entity\Groupe;
 use App\Form\UserType;
 use App\Form\LoginType;
 use App\Form\EnfantType;
+use App\Form\ProfilType;
 use App\Entity\Evenement;
 use App\Form\EvenementType;
 use App\Repository\UserRepository;
@@ -17,6 +18,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Serializer\SerializerInterface;
+use Symfony\Component\HttpFoundation\ResponseHeaderBag;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Symfony\Component\Security\Core\User\UserProviderInterface;
@@ -29,7 +31,6 @@ use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 use Symfony\Component\HttpFoundation\File\Exception\FormSizeFileException;
-use Symfony\Component\HttpFoundation\ResponseHeaderBag;
 
 
 /**
@@ -113,6 +114,42 @@ class UserController extends AbstractController
             'Content-Type' => 'application/json'
         ]);
     }
+
+    /**
+     * @Route("/{id}/profil", name="profil", methods={"PATCH"})
+     * 
+     */
+    public function patchProfil(Request $request)
+    {
+        return $this->updatePlace($request, false);
+    }
+
+    private function updatePlace(Request $request, $clearMissing):Response
+    {
+        $profil = $this->getDoctrine()->getRepository(User::class)->find($request->get('id')); 
+
+        if (empty($profil)) {
+            return new JsonResponse(['message' => 'User not found'], Response::HTTP_NOT_FOUND);
+        }
+        $form = $this->createForm(ProfilType::class, $profil ,array(
+            'action'=>$this->generateUrl('profil', array('id'=>$profil->getId())),
+            'method'=>'POST',
+        ));
+        $form->handleRequest($request);
+        $data=$request->request->all();
+
+        $form->submit($data, $clearMissing);
+
+
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($profil);
+        $em->flush();
+        return new JsonResponse('Profil mis à jour',200, 
+            ['Content-Type' => 'application/json'
+            ]);      
+    }
+  
+
     /**
      * @Route("/ajout", name="ajout", methods={"GET","POST"})
      * 
@@ -252,5 +289,39 @@ class UserController extends AbstractController
           return $response;
             
           return new Response(json_encode($resp));        
+    }
+
+    /**
+     * @Route("/{id}/photo", name="photo_show", methods={"PATCH"})
+     * 
+     */
+    public function patchPp(Request $request)
+    {
+        return $this->updatePp($request, false);
+    }
+
+    private function updatePp(Request $request, $clearMissing):Response
+    {
+        $profil = $this->getDoctrine()->getRepository(User::class)->find($request->get('id')); 
+
+        if (empty($profil)) {
+            return new JsonResponse(['message' => 'User not found'], Response::HTTP_NOT_FOUND);
+        }
+        $form = $this->createForm(ProfilType::class, $profil,array(
+            'action'=>$this->generateUrl('photo_show', array('id'=>$profil->getId())),
+            'method'=>'POST',
+        ));
+        $data=$request->getContent();
+        $file=$request->files->all()['imageFile'];
+        $form->submit($data,$clearMissing);
+        $profil->setImageFile($file);
+    
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($profil);
+        $em->flush();
+            
+        return new JsonResponse('Photo de profil modifié',200, [
+            'Content-Type' =>  'application/json'
+        ]); 
     }
 }
