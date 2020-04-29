@@ -4,6 +4,8 @@ namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
+
 
 /**
  * @ApiResource()
@@ -12,6 +14,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Evenement
 {
     /**
+     * @Groups({"event"})
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
@@ -19,36 +22,43 @@ class Evenement
     private $id;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="string", length=255)
      */
     private $libelle;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $descriptif;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="date")
      */
     private $datedebut;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="date", nullable=true)
      */
     private $datefin;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="time", nullable=true)
      */
     private $heuredebut;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="time", nullable=true)
      */
     private $heurefin;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="string", length=255)
      */
     private $statut;

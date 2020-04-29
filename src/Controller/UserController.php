@@ -55,17 +55,12 @@ class UserController extends AbstractController
     {
 
         $utilisateur = new User();
-
         $form = $this->createForm(LoginType::class, $utilisateur);
         $form->handleRequest($request);
         $data=$request->request->all();
-
         $form->submit($data);
-        
         $form->handleRequest($request);
-
         $user=$this->getDoctrine()->getRepository(User::class)->findOneBy(array('username'=>$utilisateur->getUsername()));
-
         if($user==null ){
             return new JsonResponse("Nom d'utilisateur ou mot de passe erroné réessayer",500, [
                 'Content-Type'=>  'application/json'
@@ -82,8 +77,7 @@ class UserController extends AbstractController
                 'username' => $user->getUsername(),  
             ]);
         return new JsonResponse(['token' =>$token]);
-        }
-        
+        }   
     }
     /**
      * @Route("/login/inscription", name="inscription", methods={"GET","POST"})
@@ -123,7 +117,6 @@ class UserController extends AbstractController
     {
         return $this->updatePlace($request, false);
     }
-
     private function updatePlace(Request $request, $clearMissing):Response
     {
         $profil = $this->getDoctrine()->getRepository(User::class)->find($request->get('id')); 
@@ -139,8 +132,6 @@ class UserController extends AbstractController
         $data=$request->request->all();
 
         $form->submit($data, $clearMissing);
-
-
         $em = $this->getDoctrine()->getManager();
         $em->persist($profil);
         $em->flush();
@@ -199,7 +190,6 @@ class UserController extends AbstractController
      */
     public function evenement(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder,SerializerInterface $serializer,ValidatorInterface $validator): Response
     {
-
         $g=$this->getUser()->getGroupe();
         $event = new Evenement();
         $form = $this->createForm(EvenementType::class, $event);
@@ -222,10 +212,8 @@ class UserController extends AbstractController
         if($event->getheurefin()==null){
             $event->setheurefin('00:00');   
         }
-        
         $event->setGroupe($g);   
-
-            $entityManager->persist($event);
+        $entityManager->persist($event);
         $entityManager->flush();
             
         return new JsonResponse('evenement ajouté avec succés',200, [
@@ -238,7 +226,6 @@ class UserController extends AbstractController
      */
     public function users(UserRepository $user,SerializerInterface $serializer): Response
     {
-
        
         $id=$this->getUser()->getGroupe()->getId();
         $users=$user->findBy(array('groupe'=>$id));
@@ -286,42 +273,10 @@ class UserController extends AbstractController
             $response->setContent(file_get_contents($filepath));  
             $resp[]= $response;
           }
-          return $response;
+          //return $response;
             
           return new Response(json_encode($resp));        
     }
 
-    /**
-     * @Route("/{id}/photo", name="photo_show", methods={"PATCH"})
-     * 
-     */
-    public function patchPp(Request $request)
-    {
-        return $this->updatePp($request, false);
-    }
-
-    private function updatePp(Request $request, $clearMissing):Response
-    {
-        $profil = $this->getDoctrine()->getRepository(User::class)->find($request->get('id')); 
-
-        if (empty($profil)) {
-            return new JsonResponse(['message' => 'User not found'], Response::HTTP_NOT_FOUND);
-        }
-        $form = $this->createForm(ProfilType::class, $profil,array(
-            'action'=>$this->generateUrl('photo_show', array('id'=>$profil->getId())),
-            'method'=>'POST',
-        ));
-        $data=$request->getContent();
-        $file=$request->files->all()['imageFile'];
-        $form->submit($data,$clearMissing);
-        $profil->setImageFile($file);
-    
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($profil);
-        $em->flush();
-            
-        return new JsonResponse('Photo de profil modifié',200, [
-            'Content-Type' =>  'application/json'
-        ]); 
-    }
+   
 }

@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use DateTime;
 use App\Entity\User;
 use App\Entity\Evenement;
 use App\Form\Photo_profil;
@@ -12,6 +13,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 /**
@@ -19,82 +21,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
  */
 class EvenementController extends AbstractController
 {
-    /**
-     * @Route("/", name="evenement_index", methods={"GET"})
-     */
-    public function index(EvenementRepository $evenementRepository): Response
-    {
-        return $this->render('evenement/index.html.twig', [
-            'evenements' => $evenementRepository->findAll(),
-        ]);
-    }
 
-    /**
-     * @Route("/new", name="evenement_new", methods={"GET","POST"})
-     */
-    public function new(Request $request): Response
-    {
-        $evenement = new Evenement();
-        $form = $this->createForm(Evenement1Type::class, $evenement);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($evenement);
-            $entityManager->flush();
-
-            return $this->redirectToRoute('evenement_index');
-        }
-
-        return $this->render('evenement/new.html.twig', [
-            'evenement' => $evenement,
-            'form' => $form->createView(),
-        ]);
-    }
-
-    /**
-     * @Route("/{id}", name="evenement_show", methods={"GET"})
-     */
-    public function show(Evenement $evenement): Response
-    {
-        return $this->render('evenement/show.html.twig', [
-            'evenement' => $evenement,
-        ]);
-    }
-
-    /**
-     * @Route("/{id}/edit", name="evenement_edit", methods={"GET","POST"})
-     */
-    public function edit(Request $request, Evenement $evenement): Response
-    {
-        $form = $this->createForm(Evenement1Type::class, $evenement);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $this->getDoctrine()->getManager()->flush();
-
-            return $this->redirectToRoute('evenement_index');
-        }
-
-        return $this->render('evenement/edit.html.twig', [
-            'evenement' => $evenement,
-            'form' => $form->createView(),
-        ]);
-    }
-
-    /**
-     * @Route("/{id}", name="evenement_delete", methods={"DELETE"})
-     */
-    public function delete(Request $request, Evenement $evenement): Response
-    {
-        if ($this->isCsrfTokenValid('delete'.$evenement->getId(), $request->request->get('_token'))) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->remove($evenement);
-            $entityManager->flush();
-        }
-
-        return $this->redirectToRoute('evenement_index');
-    }
 
     /**  
      *
@@ -123,5 +50,36 @@ class EvenementController extends AbstractController
             return new JsonResponse('Photo de profil modifié',200, [
                 'Content-Type' =>  'application/json'
             ]); 
+    }
+
+    /**
+     * @Route("/liste", name="events_liste", methods={"GET"})
+     *  
+     */
+    public function liste(EvenementRepository $event,SerializerInterface $serializer): Response
+    {
+        $id=$this->getUser()->getGroupe()->getId();
+        $events=$event->findBy(array('groupe'=>$id));
+
+        $date= new \DateTime(); 
+        $jours=7;
+        $today=$date->format('yy-m-d');
+        $j=$date->format('yy-m-D');
+        $jour = substr($j,8);
+        $lundi='Mon';
+        if($jour==$lundi){
+            $semaine=$date->modify('+'.$jours.'day');
+            $s=$semaine->format('yy-m-d');
+            $query = $this->getDoctrine()->getManager()->createQuery("SELECT u FROM App:Evenement u WHERE u.datedebut BETWEEN"."'$today'"." AND "."'$s'"." AND u.groupe ="."'$id'"."");
+            $part = $query->getResult();
+            $data = $serializer->serialize($part, 'json',['groups' => ['event']]);
+            return new Response($data, 200, [
+                'Content-Type'=>  'application/json'
+            ]);
+        }
+        $data = $serializer->serialize($events, 'json',['groups' => ['event']]);
+        return new Response($data, 200, [
+            'Content-Type'=>  'application/json'
+        ]);
     }
 }

@@ -47,4 +47,18 @@ class EvenementRepository extends ServiceEntityRepository
         ;
     }
     */
+
+
+    public function weekEvents($date,$date1){
+        return $this->createQueryBuilder('a')
+        ->select('a')
+        ->where('datedebut BETWEEN :now AND :date')
+        ->setParameter('now',$date)
+        ->setParameter('datedebut', $date1)
+        ->orderBy('a.datedebut', 'desc')
+        ->getQuery()
+        ->getResult();
+    }
+
+
 }
