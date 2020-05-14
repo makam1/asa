@@ -5,6 +5,8 @@ namespace App\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
+
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\GroupeRepository")
@@ -20,6 +22,7 @@ class Groupe
     private $id;
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="string", length=255)
      */
     private $nomGroupe;

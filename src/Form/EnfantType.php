@@ -14,6 +14,7 @@ class EnfantType extends AbstractType
         $builder
             ->add('etablissement')
             ->add('niveauscolaire')
+            ->add('couleur')
         ;
     }
 

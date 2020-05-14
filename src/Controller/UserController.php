@@ -175,7 +175,6 @@ class UserController extends AbstractController
         
             $entityManager->persist($enfant);
 
-
         }
         $entityManager->flush();
             
@@ -183,6 +182,8 @@ class UserController extends AbstractController
             'Content-Type' =>  'application/json'
         ]);
     }
+
+    
    
     /**
      * @Route("/evenement", name="evenement", methods={"GET","POST"})

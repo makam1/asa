@@ -82,4 +82,18 @@ class EvenementController extends AbstractController
             'Content-Type'=>  'application/json'
         ]);
     }
+     /**
+     * @Route("/events", name="events", methods={"GET"})
+     *  
+     */
+    public function events(EvenementRepository $event,SerializerInterface $serializer): Response
+    {
+        $id=$this->getUser()->getGroupe()->getId();
+        $events=$event->findBy(array('groupe'=>$id));
+
+        $data = $serializer->serialize($events, 'json',['groups' => ['event']]);
+        return new Response($data, 200, [
+            'Content-Type'=>  'application/json'
+        ]);
+    }
 }
