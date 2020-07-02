@@ -8,6 +8,7 @@ use App\Entity\Evenement;
 use App\Form\Photo_profil;
 use App\Form\Evenement1Type;
 use App\Repository\EvenementRepository;
+use App\Repository\UserRepository;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\File\File;
@@ -21,7 +22,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
  */
 class EvenementController extends AbstractController
 {
-
 
     /**  
      *
@@ -92,6 +92,22 @@ class EvenementController extends AbstractController
         $events=$event->findBy(array('groupe'=>$id));
 
         $data = $serializer->serialize($events, 'json',['groups' => ['event']]);
+        return new Response($data, 200, [
+            'Content-Type'=>  'application/json'
+        ]);
+    }
+
+    /**
+     * @Route("/liste/enfants", name="enfants", methods={"GET"})
+     *  
+     */
+    public function listeEnfant(UserRepository $user,SerializerInterface $serializer): Response
+    {
+        $id=$this->getUser()->getGroupe()->getId();
+        $users=$user->findBy(array('groupe'=>$id,'role'=>'ROLE_ENFANT'));
+
+           
+        $data = $serializer->serialize($users, 'json',['groups' => ['enfant']]);
         return new Response($data, 200, [
             'Content-Type'=>  'application/json'
         ]);

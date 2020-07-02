@@ -20,10 +20,6 @@ class EvenementType extends AbstractType
                 'widget' => 'single_text',
                 'format' => 'dd-MM-yyyy',
             ])
-            ->add('datefin',DateType::class, [
-                'widget' => 'single_text',
-                'format' => 'dd-MM-yyyy',
-            ])
             ->add('heuredebut',TimeType::class, [
                 'widget' => 'single_text',
             ])

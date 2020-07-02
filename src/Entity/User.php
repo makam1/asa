@@ -18,7 +18,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 class User implements UserInterface
 {
     /**
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
@@ -26,7 +26,7 @@ class User implements UserInterface
     private $id;
 
     /**
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * @ORM\Column(type="string", length=180, unique=true)
      */
     private $username;
@@ -44,25 +44,25 @@ class User implements UserInterface
     private $password;
 
     /**
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * @ORM\Column(type="string", length=255,  nullable=true)
      */
     private $prenom;
 
     /**
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * @ORM\Column(type="string", length=255,nullable=true)
      */
     private $nom;
 
     /**
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * @ORM\Column(type="string", length=255, nullable=true, nullable=true)
      */
     private $telephone;
 
     /**
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * @ORM\Column(type="date",nullable=true)
      */
     private $datenaissance;

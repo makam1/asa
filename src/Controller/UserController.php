@@ -183,7 +183,7 @@ class UserController extends AbstractController
         ]);
     }
 
-    
+
    
     /**
      * @Route("/evenement", name="evenement", methods={"GET","POST"})
@@ -199,9 +199,6 @@ class UserController extends AbstractController
         $form->submit($data);
         if($event->getDescriptif()==null){
             $event->setDecriptif($event->getLibelle());   
-        }
-        if($event->getDatefin()==null){
-            $event->setDatefin($event->getDatedebut());   
         }
         if($event->getheuredebut()==null){
             $event->setheuredebut('00:00');   

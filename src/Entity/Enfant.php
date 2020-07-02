@@ -40,6 +40,7 @@ class Enfant
 
 
     /**
+     * @Groups({"event"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $couleur;

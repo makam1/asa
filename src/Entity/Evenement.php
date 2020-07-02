@@ -43,12 +43,6 @@ class Evenement
 
     /**
      * @Groups({"event"})
-     * @ORM\Column(type="date", nullable=true)
-     */
-    private $datefin;
-
-    /**
-     * @Groups({"event"})
      * @ORM\Column(type="time", nullable=true)
      */
     private $heuredebut;
@@ -72,9 +66,15 @@ class Evenement
     private $groupe;
 
     /**
+     * @Groups({"event"})
      * @ORM\ManyToOne(targetEntity="App\Entity\Enfant", inversedBy="evenements")
      */
     private $enfant;
+
+    /**
+     * @ORM\Column(type="string", length=20)
+     */
+    private $frequence;
 
 
     public function getId(): ?int
@@ -118,17 +118,6 @@ class Evenement
         return $this;
     }
 
-    public function getDatefin(): ?\DateTimeInterface
-    {
-        return $this->datefin;
-    }
-
-    public function setDatefin(?\DateTimeInterface $datefin): self
-    {
-        $this->datefin = $datefin;
-
-        return $this;
-    }
 
     public function getHeuredebut(): ?\DateTimeInterface
     {
@@ -186,6 +175,18 @@ class Evenement
     public function setEnfant(?Enfant $enfant): self
     {
         $this->enfant = $enfant;
+
+        return $this;
+    }
+
+    public function getFrequence(): ?string
+    {
+        return $this->frequence;
+    }
+
+    public function setFrequence(string $frequence): self
+    {
+        $this->frequence = $frequence;
 
         return $this;
     }
