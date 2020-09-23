@@ -1,0 +1,18 @@
+/*
+Theme Name: TREND Child
+Theme URI: http://trendwp.modeltheme.com/woo/
+Template: trend
+Author: ModelTheme
+Author URI: http://modeltheme.com/
+Description: Trend - Multipurpose / Fashion / Restaurant / Construction / Modern Shop WooCommerce WordPress Theme [child-theme]
+Version: 1.9.7
+Text Domain: trend
+Tags: fluid-layout, custom-header, custom-menu, featured-images, post-formats, sticky-post
+*/
+
+@import url("../trend/style.css");
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+

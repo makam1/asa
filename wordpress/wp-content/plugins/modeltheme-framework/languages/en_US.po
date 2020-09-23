@@ -1,0 +1,964 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:810
+msgid "<strong>Thank you!</strong> We\\'ll get back to you as soon as possible."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add New"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add New Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add New Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add New Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add New Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add New Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Add or remove items"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "All Items"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "All done."
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:273
+msgid "Assign Authors"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Badge background color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Badge border color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Badge icon"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Blog Posts Custom Options"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Blog post background"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Blog post border color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Blog post button border color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Category"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Category badge background"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Choose from the most used"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:1
+msgid "Comment"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Company"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Contact Location"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Contact Location Details"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Contact Locations"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:810
+msgid "Cost of the course:"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Course badge icon"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Course layout"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Course sidebar"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Courses Custom Options"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Courses background color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Courses border color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/parsers.php:1
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Disabled"
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:289
+msgid "Download and import file attachments"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Edit Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Edit Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Edit Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Edit Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Edit Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Eg: Baptize"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:1
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enable/Disable Comments"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enable/Disable featured image on single course page"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enable/Disable related courses on single course page"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enabled"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enter Latitude value of the location"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enter Longitude value of the location"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enter testimonial author company name"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Enter testimonial author job position"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Event background"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Event border color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Events Custom Options"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Featured image"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:810
+msgid "Free entry"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:1
+msgid "Full Name"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Full Width"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:1
+msgid "Got it, you\\'ve been added to our email list."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "Have fun!"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "High Padding"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:276
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:286
+msgid "Import Attachments"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Imported"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Imported to Inactive"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Job Position"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Latitude value"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Left Sidebar"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Longitude value"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/widgets/widgets.php:1
+msgid "MODELTHEME - Recent Tweets"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Member Types"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Members"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:810
+msgid "More"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "New Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "New Item Name"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "New Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "New Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "New Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "New Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "No - Hide title"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Members Found"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Members Found in Trash"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "No Padding"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "No Padding bottom"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "No Padding top"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Quotes Found"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Quotes Found in Trash"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Services Found"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Services Found in Trash"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Testimonials Found"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "No Testimonials Found in Trash"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "No Title"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Not Found"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Not found"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Not found in Trash"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Off - Hide comments"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Off - Hide title-breadcrumbs area"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "On - Show comments"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "On - Show title-breadcrumbs area"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Our Services"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Our Services Custom Options"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Page Custom Options"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Page title-breadcrumbs"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Page top/bottom spacing"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Parent Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Parent Item:"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Parent Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Parent Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Parent Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Parent Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Please enter teacher function"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Popular Items"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Quotes"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:810
+msgid "READ MORE"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/widgets/widgets.php:1
+msgid "Recent Tweets"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/widgets/widgets.php:1
+msgid "Recent tweets widget"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Related courses"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Right Sidebar"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Search Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Search Items"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Search Members"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Search Quotes"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Search Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Search Testimonials"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select Revolution Slider"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select Sidebar"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select an option"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select background color for teacher box"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select border color for teacher box"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select course layout"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Select course sidebar"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Separate items with commas"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Service Types"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the background color of the badge"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the background color of the category badge"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the background color of the course"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the background color of the event"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the background color of the post"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the background color of the testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the border color for the button"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the border color of the badge"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the border color of the course"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the border color of the event"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the border color of the post"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Set the border color of the testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Show page title"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Site does not support widget"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:293
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Teacher badge icon (required only for teachers role)"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Teacher box background color (required only for teachers role)"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Teacher box border color (required only for teachers role)"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Teacher profile image (required only for teachers role)"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Testimonial background"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Testimonial border color"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Testimonials"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Testimonials Custom Options"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:1
+msgid "Thank you! We\\'ll get back to you as soon as possible."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/parsers.php:1
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:295
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/parsers.php:1
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/wordpress-importer.php:274
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/widgets/widgets.php:107
+msgid "Tweets number:"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "Update Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "User Profile Metabox"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "User function (required only for teachers role)"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/shortcodes/shortcodes.php:810
+msgid "VIEW MORE"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "View Item"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "View Member"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "View Quote"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "View Service"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/post-types/post-types.php:1
+msgid "View Testimonial"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/demo-importer/extensions/wbc_importer/inc/importer/radium-importer.php:1
+msgid "Widget already exists"
+msgstr ""
+
+#. Text in echo
+#: modeltheme-framework/inc/widgets/widgets.php:103
+msgid "Widget title:"
+msgstr ""
+
+#. Text in function
+#: modeltheme-framework/inc/metaboxes/metaboxes.php:1
+msgid "Yes - Show title"
+msgstr ""

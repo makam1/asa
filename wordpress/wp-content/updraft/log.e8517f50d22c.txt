@@ -1,0 +1,154 @@
+0000.365 () Opened log file at time: Tue, 30 Jun 2020 12:07:32 +0000 on http://localhost/qls/wordpress
+0000.366 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.2 PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) MySQL: 5.7.29-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 32.5M | 4M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.366 () Free space on disk containing Updraft's temporary directory: 2723.7 MB
+0000.078 () Opened log file at time: Tue, 30 Jun 2020 12:07:34 +0000 on http://localhost/qls/wordpress
+0000.079 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.2 PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) MySQL: 5.7.29-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 31.1M | 4M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.079 () Free space on disk containing Updraft's temporary directory: 2723.6 MB
+0000.082 () Ensuring WP_Filesystem is setup for a restore
+0000.082 () WP_Filesystem is setup and ready for a restore
+0000.133 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restore_table_options":["wp_options","wp_users","wp_usermeta","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_wc_category_lookup","wp_wc_product_meta_lookup","wp_wc_tax_rate_classes","wp_woocommerce_order_itemmeta","wp_woocommerce_payment_tokenmeta","wp_masterslider_options","wp_masterslider_sliders","wp_redirection_404","wp_redirection_groups","wp_redirection_items","wp_redirection_logs","wp_revslider_css","wp_revslider_css_bkp","wp_revslider_layer_animations","wp_revslider_layer_animations_bkp","wp_revslider_navigations","wp_revslider_navigations_bkp","wp_revslider_sliders","wp_revslider_sliders_bkp","wp_revslider_slides","wp_revslider_slides_bkp","wp_revslider_static_slides","wp_revslider_static_slides_bkp","wp_smush_dir_images","wp_tm_taskmeta","wp_tm_tasks","wp_wc_admin_note_actions","wp_wc_admin_notes","wp_wc_customer_lookup","wp_wc_download_log","wp_wc_order_coupon_lookup","wp_wc_order_product_lookup","wp_wc_order_stats","wp_wc_order_tax_lookup","wp_wc_webhooks","wp_woocommerce_api_keys","wp_woocommerce_attribute_taxonomies","wp_woocommerce_downloadable_product_permissions","wp_woocommerce_log","wp_woocommerce_order_items","wp_woocommerce_payment_tokens","wp_woocommerce_sessions","wp_woocommerce_shipping_zone_locations","wp_woocommerce_shipping_zone_methods","wp_woocommerce_shipping_zones","wp_woocommerce_tax_rate_locations","wp_woocommerce_tax_rates","wp_yith_wcwl","wp_yith_wcwl_lists"],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.137 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.179 () Entity: db
+0000.180 () restore_backup(backup_file=backup_2020-06-29-1144_Barawa_d28dae7273a0-db.gz, type=db, info=a:0:{}, last_one=)
+0000.180 () Décompression de la sauvegarde… (backup_2020-06-29-1144_Barawa_d28dae7273a0-db.gz, 0.5 Mb)
+0000.183 () Database successfully unpacked
+0000.184 () Restauration de la base de données (cela peut prendre du temps si votre site est volumineux - en cas de timeout (ce qui arrive si votre hébergeur limite vos ressources), vous devrez utiliser une autre méthode comme phpMyAdmin…
+0000.184 () Using direct MySQL access; value of use_mysqli is: 1
+0000.185 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.761 () Max packet size: 32 MB
+0000.762 () Entering maintenance mode
+0000.762 () Activation du mode maintenance&#8230;
+0000.762 () Backup of: http://localhost/qls/wordpress
+0000.765 () Content URL: http://localhost/qls/wordpress/wp-content
+0000.765 () Uploads URL: http://localhost/qls/wordpress/wp-content/uploads
+0000.765 () Old table prefix: wp_
+0000.766 () Site information: multisite=0
+0000.767 () New table prefix: wp_
+0001.008 () Processing table (InnoDB): wp_options
+0005.111 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0005.314 () Processing table (InnoDB): wp_users
+0006.084 () Processing table (InnoDB): wp_usermeta
+0006.732 () Processing table (InnoDB): wp_actionscheduler_actions
+0007.819 () Processing table (InnoDB): wp_actionscheduler_claims
+0008.511 () Processing table (InnoDB): wp_actionscheduler_groups
+0009.228 () Processing table (InnoDB): wp_actionscheduler_logs
+0010.034 () Processing table (InnoDB): wp_commentmeta
+0010.733 () Processing table (InnoDB): wp_comments
+0011.892 () Processing table (InnoDB): wp_links
+0012.418 () Processing table (InnoDB): wp_postmeta
+0016.836 () Processing table (InnoDB): wp_posts
+0021.036 () Processing table (InnoDB): wp_term_relationships
+0021.394 () Database queries processed: 50 in 21.20 seconds
+0021.864 () Processing table (InnoDB): wp_term_taxonomy
+0022.703 () Processing table (InnoDB): wp_termmeta
+0023.753 () Processing table (InnoDB): wp_terms
+0024.634 () Processing table (InnoDB): wp_wc_category_lookup
+0025.207 () Processing table (InnoDB): wp_wc_product_meta_lookup
+0026.271 () Processing table (InnoDB): wp_wc_tax_rate_classes
+0027.098 () Processing table (InnoDB): wp_woocommerce_order_itemmeta
+0027.957 () Processing table (InnoDB): wp_woocommerce_payment_tokenmeta
+0028.684 () Processing table (InnoDB): wp_masterslider_options
+0029.555 () Processing table (InnoDB): wp_masterslider_sliders
+0030.292 () Processing table (InnoDB): wp_redirection_404
+0031.002 () Processing table (InnoDB): wp_redirection_groups
+0031.884 () Processing table (InnoDB): wp_redirection_items
+0034.121 () Processing table (InnoDB): wp_redirection_logs
+0035.127 () Processing table (InnoDB): wp_revslider_css
+0036.266 () Processing table (InnoDB): wp_revslider_css_bkp
+0037.047 () Processing table (InnoDB): wp_revslider_layer_animations
+0037.775 () Processing table (InnoDB): wp_revslider_layer_animations_bkp
+0038.411 () Database queries processed: 100 in 38.22 seconds
+0038.412 () Processing table (InnoDB): wp_revslider_navigations
+0039.070 () Processing table (InnoDB): wp_revslider_navigations_bkp
+0039.665 () Processing table (InnoDB): wp_revslider_sliders
+0040.368 () Processing table (InnoDB): wp_revslider_sliders_bkp
+0041.027 () Processing table (InnoDB): wp_revslider_slides
+0041.778 () Processing table (InnoDB): wp_revslider_slides_bkp
+0042.514 () Processing table (InnoDB): wp_revslider_static_slides
+0043.156 () Processing table (InnoDB): wp_revslider_static_slides_bkp
+0043.835 () Processing table (InnoDB): wp_smush_dir_images
+0044.705 () Processing table (InnoDB): wp_tm_taskmeta
+0045.532 () Processing table (InnoDB): wp_tm_tasks
+0046.070 () Processing table (InnoDB): wp_wc_admin_note_actions
+0047.064 () Processing table (InnoDB): wp_wc_admin_notes
+0047.945 () Processing table (InnoDB): wp_wc_customer_lookup
+0048.885 () Processing table (InnoDB): wp_wc_download_log
+0049.600 () Processing table (InnoDB): wp_wc_order_coupon_lookup
+0050.426 () Processing table (InnoDB): wp_wc_order_product_lookup
+0051.411 () Processing table (InnoDB): wp_wc_order_stats
+0052.783 () Processing table (InnoDB): wp_wc_order_tax_lookup
+0053.667 () Processing table (InnoDB): wp_wc_webhooks
+0054.415 () Processing table (InnoDB): wp_woocommerce_api_keys
+0054.772 () Database queries processed: 150 in 54.58 seconds
+0054.996 () Processing table (InnoDB): wp_woocommerce_attribute_taxonomies
+0055.802 () Processing table (InnoDB): wp_woocommerce_downloadable_product_permissions
+0056.685 () Processing table (InnoDB): wp_woocommerce_log
+0057.423 () Processing table (InnoDB): wp_woocommerce_order_items
+0058.261 () Processing table (InnoDB): wp_woocommerce_payment_tokens
+0058.942 () Processing table (InnoDB): wp_woocommerce_sessions
+0060.094 () Processing table (InnoDB): wp_woocommerce_shipping_zone_locations
+0061.476 () Processing table (InnoDB): wp_woocommerce_shipping_zone_methods
+0062.779 () Processing table (InnoDB): wp_woocommerce_shipping_zones
+0063.907 () Processing table (InnoDB): wp_woocommerce_tax_rate_locations
+0065.013 () Processing table (InnoDB): wp_woocommerce_tax_rates
+0065.886 () Processing table (InnoDB): wp_yith_wcwl
+0066.757 () Processing table (InnoDB): wp_yith_wcwl_lists
+0067.396 () Unlocking database and leaving maintenance mode
+0067.396 () Désactivation du mode maintenance&#8230;
+0067.397 () Finished: lines processed: 184 in 67.21 seconds
+0067.398 () Nettoyage…
+0067.663 () Entity: plugins
+0067.663 () restore_backup(backup_file=backup_2020-06-29-1144_Barawa_d28dae7273a0-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:46:"/var/www/html/qls/wordpress/wp-content/plugins";s:11:"description";s:10:"Extensions";}, last_one=)
+0067.664 () Décompression de la sauvegarde… (backup_2020-06-29-1144_Barawa_d28dae7273a0-plugins.zip, 61.8 MB)
+0067.667 () Unzipping backup_2020-06-29-1144_Barawa_d28dae7273a0-plugins.zip to /var/www/html/qls/wordpress/wp-content/upgrade/b3b651c9/ using UpdraftPlus_ZipArchive, starting index 0
+0068.252 () Unzip progress: 1787 out of 13793 files (347 B, plugins/revslider/public/assets/assets/svg/device/ic_wallpaper_24px.svg)
+0068.426 () Unzip progress: 2788 out of 13793 files (3.1 MB, plugins/revslider/public/assets/assets/svg/device/ic_widgets_24px.svg)
+0069.477 () Unzip progress: 3789 out of 13793 files (37.4 MB, plugins/w3-total-cache/CdnEngine_CloudFront.php)
+0070.414 () Unzip progress: 4790 out of 13793 files (86.6 MB, plugins/w3-total-cache/Extension_NewRelic_Widget_View_Browser.php)
+0071.147 () Unzip progress: 5791 out of 13793 files (93.7 MB, plugins/wp-optimize/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php)
+0071.504 () Unzip progress: 6792 out of 13793 files (104.9 MB, plugins/woocommerce/includes/shipping/flat-rate/class-wc-shipping-flat-rate.php)
+0072.170 () Unzip progress: 7793 out of 13793 files (119.7 MB, plugins/woocommerce/packages/woocommerce-admin/src/API/Reports/Downloads/Files/Controller.php)
+0072.650 () Unzip progress: 8794 out of 13793 files (143.8 MB, plugins/redirection/locale/json/redirection-en_ZA.json)
+0073.570 () Unzip progress: 9795 out of 13793 files (166.2 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Hash/ChunkHashInterface.php)
+0074.474 () Unzip progress: 10796 out of 13793 files (177.4 MB, plugins/loco-translate/pub/css/editor.css)
+0074.679 () Unzip progress: 11797 out of 13793 files (185.9 MB, plugins/js_composer/assets/less/params/vc_grid_item/shortcodes/vc_gitem_zone_admin.less)
+0075.179 () Unzip progress: 12798 out of 13793 files (207.2 MB, plugins/js_composer/include/classes/core/shared-templates/importer/class-vc-wxr-parser.php)
+0076.020 () Unzip progress: 13793 out of 13793 files (219.4 MB, plugins/yith-woocommerce-compare/plugin-fw/assets/images/sleep.png)
+0076.031 () Moving old data: filesystem method / updraft_dir is potentially possible
+0076.031 () Moving old data: can potentially use wp_filesystem method / -old
+0076.031 () Mise de côté des anciennes données…
+0077.537 () Top-level entities being moved: hello.php, revslider, contact-form-7, modeltheme-framework, w3-total-cache, masterslider, wp-optimize, yith-woocommerce-wishlist, woocommerce, redirection, cookie-law-info, parallax-backgrounds-for-vc, updraftplus, add-search-to-menu, broken-link-checker, loco-translate, index.php, redux-framework, mega_main_menu, ecwid-shopping-cart, js_composer, yith-woocommerce-quick-view, wp-smushit, akismet, yith-woocommerce-compare
+0077.542 () Déplacement de la sauvegarde décompressée…
+0078.922 () Top-level entities being moved: hello.php, revslider, contact-form-7, modeltheme-framework, w3-total-cache, masterslider, wp-optimize, yith-woocommerce-wishlist, woocommerce, redirection, cookie-law-info, parallax-backgrounds-for-vc, updraftplus, add-search-to-menu, loco-translate, index.php, redux-framework, mega_main_menu, ecwid-shopping-cart, js_composer, yith-woocommerce-quick-view, wp-smushit, akismet, yith-woocommerce-compare
+0078.928 () Nettoyage…
+0079.510 () Entity: themes
+0079.511 () restore_backup(backup_file=backup_2020-06-29-1144_Barawa_d28dae7273a0-themes.zip, type=themes, info=a:2:{s:4:"path";s:45:"/var/www/html/qls/wordpress/wp-content/themes";s:11:"description";s:9:"Thèmes ";}, last_one=)
+0079.511 () Décompression de la sauvegarde… (backup_2020-06-29-1144_Barawa_d28dae7273a0-themes.zip, 4 MB)
+0079.511 () Unzipping backup_2020-06-29-1144_Barawa_d28dae7273a0-themes.zip to /var/www/html/qls/wordpress/wp-content/upgrade/bda92e18/ using UpdraftPlus_ZipArchive, starting index 0
+0080.050 () Unzip progress: 270 out of 270 files (5.8 MB, themes/index.php)
+0080.055 () Moving old data: filesystem method / updraft_dir is potentially possible
+0080.055 () Moving old data: can potentially use wp_filesystem method / -old
+0080.055 () Mise de côté des anciennes données…
+0080.084 () Top-level entities being moved: index.php, trend-child, trend
+0080.084 () Déplacement de la sauvegarde décompressée…
+0080.109 () Top-level entities being moved: index.php, trend-child, trend
+0080.109 () Nettoyage…
+0080.498 () Entity: uploads
+0080.498 () restore_backup(backup_file=backup_2020-06-29-1144_Barawa_d28dae7273a0-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:46:"/var/www/html/qls/wordpress/wp-content/uploads";s:11:"description";s:18:"Téléversements ";}, last_one=)
+0080.499 () Décompression de la sauvegarde… (backup_2020-06-29-1144_Barawa_d28dae7273a0-uploads.zip, 23.7 MB)
+0080.500 () Unzipping backup_2020-06-29-1144_Barawa_d28dae7273a0-uploads.zip to /var/www/html/qls/wordpress/wp-content/upgrade/3ae7e7ec/ using UpdraftPlus_ZipArchive, starting index 0
+0080.994 () Unzip progress: 1002 out of 1109 files (20.9 MB, uploads/2020/06/ensemble-3-plateaux-tresses-thiaat-2.jpg)
+0081.457 () Unzip progress: 1109 out of 1109 files (23.9 MB, uploads/2020/06/panier-tresse-a-linge-ndeute-2-1-800x500.jpg)
+0081.460 () Moving old data: filesystem method / updraft_dir is potentially possible
+0081.460 () Moving old data: can potentially use wp_filesystem method / -old
+0081.460 () Mise de côté des anciennes données…
+0081.648 () Déplacement de la sauvegarde décompressée…
+0081.752 () Nettoyage…
+0082.407 () Entity: others
+0082.407 () restore_backup(backup_file=backup_2020-06-29-1144_Barawa_d28dae7273a0-others.zip, type=others, info=a:2:{s:4:"path";s:38:"/var/www/html/qls/wordpress/wp-content";s:11:"description";s:7:"Autres ";}, last_one=1)
+0082.407 () Décompression de la sauvegarde… (backup_2020-06-29-1144_Barawa_d28dae7273a0-others.zip, 2.1 MB)
+0082.408 () Unzipping backup_2020-06-29-1144_Barawa_d28dae7273a0-others.zip to /var/www/html/qls/wordpress/wp-content/upgrade/a0211288/ using UpdraftPlus_ZipArchive, starting index 0
+0082.940 () Unzip progress: 251 out of 251 files (8.2 MB, languages/fr_FR-bf0f094965d3d4a95b47babcb35fc136.json)
+0082.943 () Nettoyage…
+0084.259 () Restore successful!
+0084.260 () Restore successful

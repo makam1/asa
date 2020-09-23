@@ -1,0 +1,797 @@
+[2020-07-01 17:05:42 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:17 : INFO] - 
+ 
+[2020-07-01 17:11:17 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 17:11:17 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 17:11:17 : INFO] - WP: 5.4.2 
+[2020-07-01 17:11:17 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 17:11:17 : INFO] - MySQL: 5.7.29 
+[2020-07-01 17:11:17 : INFO] - WPLANG: fr_FR 
+[2020-07-01 17:11:17 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 17:11:17 : INFO] - Outbound connections: N 
+[2020-07-01 17:11:17 : INFO] - safe_mode: 0 
+[2020-07-01 17:11:17 : INFO] - max_execution_time: 600 
+[2020-07-01 17:11:17 : INFO] - memory_limit: 512M (used: 32.5M | 2M) 
+[2020-07-01 17:11:17 : INFO] - multisite: N 
+[2020-07-01 17:11:17 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 17:11:17 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2020-07-01 17:11:17 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 17:11:17 
+[2020-07-01 17:11:17 : INFO] - Semaphore lock (smush) complete 
+[2020-07-01 17:11:17 : INFO] - Processing task with ID : 1, and type 'smush' 
+[2020-07-01 17:11:18 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:18 : INFO] - 95 
+[2020-07-01 17:11:20 : INFO] - Backing up the original image - 2020/07/envelope-icon-updraft-pre-smush-original.png 
+[2020-07-01 17:11:20 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:20 : INFO] - 95 
+[2020-07-01 17:11:20 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:11:20 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:20 : INFO] - 95 
+[2020-07-01 17:11:22 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:22 : INFO] - 95 
+[2020-07-01 17:11:24 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:24 : INFO] - 95 
+[2020-07-01 17:11:27 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:27 : INFO] - 95 
+[2020-07-01 17:11:28 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:28 : INFO] - 95 
+[2020-07-01 17:11:29 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:29 : INFO] - 95 
+[2020-07-01 17:11:30 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:11:30 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:30 : INFO] - 95 
+[2020-07-01 17:11:31 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:31 : INFO] - 95 
+[2020-07-01 17:11:31 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:11:31 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:31 : INFO] - 95 
+[2020-07-01 17:11:31 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:11:31 : INFO] - Re_Smush_It_Task with attachment ID : 4076, autocreated on : July 01, 2020 05:05:42 
+[2020-07-01 17:11:31 : INFO] - 95 
+[2020-07-01 17:11:32 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:11:32 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/envelope-icon.png.Le fichier a été compressé de 6.15 KB à 4.26 KB en réduisant de 30.71 pourcent avec WP-Optimize. 
+[2020-07-01 17:11:32 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2020-07-01 17:11:32 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-07-01 17:11:32 : INFO] - Semaphore (smush) unlocked 
+[2020-07-01 17:11:32 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2020-07-01 17:11:32 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-07-01 17:11:32 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2020-07-01 17:21:31 : INFO] - 
+ 
+[2020-07-01 17:21:31 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 17:21:31 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 17:21:31 : INFO] - WP: 5.4.2 
+[2020-07-01 17:21:31 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 17:21:31 : INFO] - MySQL: 5.7.29 
+[2020-07-01 17:21:31 : INFO] - WPLANG: fr_FR 
+[2020-07-01 17:21:31 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 17:21:31 : INFO] - Outbound connections: N 
+[2020-07-01 17:21:31 : INFO] - safe_mode: 0 
+[2020-07-01 17:21:31 : INFO] - max_execution_time: 600 
+[2020-07-01 17:21:31 : INFO] - memory_limit: 512M (used: 32.7M | 2M) 
+[2020-07-01 17:21:31 : INFO] - multisite: N 
+[2020-07-01 17:21:31 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 17:21:31 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2020-07-01 17:44:57 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:44:59 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:45:01 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:45:04 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:45:06 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:50:00 : INFO] - 
+ 
+[2020-07-01 17:50:00 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 17:50:00 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 17:50:00 : INFO] - WP: 5.4.2 
+[2020-07-01 17:50:00 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 17:50:00 : INFO] - MySQL: 5.7.29 
+[2020-07-01 17:50:00 : INFO] - WPLANG: fr_FR 
+[2020-07-01 17:50:00 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 17:50:00 : INFO] - Outbound connections: N 
+[2020-07-01 17:50:00 : INFO] - safe_mode: 0 
+[2020-07-01 17:50:00 : INFO] - max_execution_time: 600 
+[2020-07-01 17:50:00 : INFO] - memory_limit: 512M (used: 32.5M | 2M) 
+[2020-07-01 17:50:00 : INFO] - multisite: N 
+[2020-07-01 17:50:00 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 17:50:00 : INFO] - A total of 5 tasks of type smush found and will be processed in this iteration 
+[2020-07-01 17:50:00 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 17:50:00 
+[2020-07-01 17:50:00 : INFO] - Semaphore lock (smush) complete 
+[2020-07-01 17:50:00 : INFO] - Processing task with ID : 2, and type 'smush' 
+[2020-07-01 17:50:00 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:00 : INFO] - 95 
+[2020-07-01 17:50:06 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:06 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:06 : INFO] - 95 
+[2020-07-01 17:50:08 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:08 : INFO] - 95 
+[2020-07-01 17:50:09 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:09 : INFO] - 95 
+[2020-07-01 17:50:10 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:10 : INFO] - 95 
+[2020-07-01 17:50:10 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:10 : INFO] - 95 
+[2020-07-01 17:50:11 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:11 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:11 : INFO] - 95 
+[2020-07-01 17:50:12 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:12 : INFO] - 95 
+[2020-07-01 17:50:12 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:12 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:12 : INFO] - 95 
+[2020-07-01 17:50:13 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:13 : INFO] - 95 
+[2020-07-01 17:50:14 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:14 : INFO] - 95 
+[2020-07-01 17:50:15 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:15 : INFO] - 95 
+[2020-07-01 17:50:16 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:16 : INFO] - 95 
+[2020-07-01 17:50:17 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:17 : INFO] - 95 
+[2020-07-01 17:50:18 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:18 : INFO] - 95 
+[2020-07-01 17:50:18 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:18 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:18 : INFO] - 95 
+[2020-07-01 17:50:19 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:19 : INFO] - 95 
+[2020-07-01 17:50:20 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:20 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:20 : INFO] - 95 
+[2020-07-01 17:50:20 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:20 : INFO] - 95 
+[2020-07-01 17:50:21 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:21 : INFO] - 95 
+[2020-07-01 17:50:22 : INFO] - Re_Smush_It_Task with attachment ID : 4077, autocreated on : July 01, 2020 05:44:56 
+[2020-07-01 17:50:22 : INFO] - 95 
+[2020-07-01 17:50:24 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/revslider/sl_3_1_background1.jpg.Le fichier a été compressé de 94.73 KB à 94.73 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 17:50:24 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2020-07-01 17:50:24 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 17:50:24 
+[2020-07-01 17:50:24 : INFO] - Processing task with ID : 3, and type 'smush' 
+[2020-07-01 17:50:25 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:25 : INFO] - 95 
+[2020-07-01 17:50:25 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:25 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:25 : INFO] - 95 
+[2020-07-01 17:50:26 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:26 : INFO] - 95 
+[2020-07-01 17:50:26 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:26 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:26 : INFO] - 95 
+[2020-07-01 17:50:27 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:27 : INFO] - 95 
+[2020-07-01 17:50:28 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:28 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:28 : INFO] - 95 
+[2020-07-01 17:50:28 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:28 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:28 : INFO] - 95 
+[2020-07-01 17:50:28 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:28 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:28 : INFO] - 95 
+[2020-07-01 17:50:28 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:28 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:28 : INFO] - 95 
+[2020-07-01 17:50:29 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:29 : INFO] - 95 
+[2020-07-01 17:50:30 : INFO] - Re_Smush_It_Task with attachment ID : 4078, autocreated on : July 01, 2020 05:44:58 
+[2020-07-01 17:50:30 : INFO] - 95 
+[2020-07-01 17:50:30 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:31 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/revslider/sl1_11.png.Le fichier a été compressé de 9.25 KB à 9.25 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 17:50:31 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2020-07-01 17:50:31 : INFO] - Processing task with ID : 4, and type 'smush' 
+[2020-07-01 17:50:31 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:31 : INFO] - 95 
+[2020-07-01 17:50:37 : INFO] - Backing up the original image - revslider/sl1_21-updraft-pre-smush-original.png 
+[2020-07-01 17:50:37 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:37 : INFO] - 95 
+[2020-07-01 17:50:39 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:39 : INFO] - 95 
+[2020-07-01 17:50:41 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:41 : INFO] - 95 
+[2020-07-01 17:50:41 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:41 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:41 : INFO] - 95 
+[2020-07-01 17:50:41 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:41 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:41 : INFO] - 95 
+[2020-07-01 17:50:42 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:42 : INFO] - 95 
+[2020-07-01 17:50:45 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:45 : INFO] - 95 
+[2020-07-01 17:50:45 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:45 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:45 : INFO] - 95 
+[2020-07-01 17:50:48 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:48 : INFO] - 95 
+[2020-07-01 17:50:53 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:53 : INFO] - 95 
+[2020-07-01 17:50:56 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:56 : INFO] - 95 
+[2020-07-01 17:50:58 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:58 : INFO] - 95 
+[2020-07-01 17:50:58 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:50:58 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:58 : INFO] - 95 
+[2020-07-01 17:50:59 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:50:59 : INFO] - 95 
+[2020-07-01 17:51:01 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:51:01 : INFO] - 95 
+[2020-07-01 17:51:03 : INFO] - Re_Smush_It_Task with attachment ID : 4079, autocreated on : July 01, 2020 05:45:00 
+[2020-07-01 17:51:03 : INFO] - 95 
+[2020-07-01 17:51:04 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/revslider/sl1_21.png.Le fichier a été compressé de 484.88 KB à 108.96 KB en réduisant de 77.53 pourcent avec WP-Optimize. 
+[2020-07-01 17:51:04 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2020-07-01 17:51:04 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 17:51:04 
+[2020-07-01 17:51:04 : INFO] - Processing task with ID : 5, and type 'smush' 
+[2020-07-01 17:51:04 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:04 : INFO] - 95 
+[2020-07-01 17:51:08 : INFO] - Backing up the original image - revslider/sl2_21-updraft-pre-smush-original.png 
+[2020-07-01 17:51:08 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:08 : INFO] - 95 
+[2020-07-01 17:51:09 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:09 : INFO] - 95 
+[2020-07-01 17:51:11 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:11 : INFO] - 95 
+[2020-07-01 17:51:11 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:11 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:11 : INFO] - 95 
+[2020-07-01 17:51:11 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:11 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:11 : INFO] - 95 
+[2020-07-01 17:51:12 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:12 : INFO] - 95 
+[2020-07-01 17:51:15 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:15 : INFO] - 95 
+[2020-07-01 17:51:15 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:15 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:15 : INFO] - 95 
+[2020-07-01 17:51:17 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:17 : INFO] - 95 
+[2020-07-01 17:51:18 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:18 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:18 : INFO] - 95 
+[2020-07-01 17:51:18 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:18 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:18 : INFO] - 95 
+[2020-07-01 17:51:21 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:21 : INFO] - 95 
+[2020-07-01 17:51:23 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:23 : INFO] - 95 
+[2020-07-01 17:51:24 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:24 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:24 : INFO] - 95 
+[2020-07-01 17:51:26 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:26 : INFO] - Re_Smush_It_Task with attachment ID : 4080, autocreated on : July 01, 2020 05:45:03 
+[2020-07-01 17:51:26 : INFO] - 95 
+[2020-07-01 17:51:27 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/revslider/sl2_21.png.Le fichier a été compressé de 356.97 KB à 70.78 KB en réduisant de 80.17 pourcent avec WP-Optimize. 
+[2020-07-01 17:51:27 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2020-07-01 17:51:28 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 17:51:28 
+[2020-07-01 17:51:28 : INFO] - Processing task with ID : 6, and type 'smush' 
+[2020-07-01 17:51:28 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:28 : INFO] - 95 
+[2020-07-01 17:51:29 : INFO] - Backing up the original image - revslider/sl2_11-updraft-pre-smush-original.png 
+[2020-07-01 17:51:29 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:29 : INFO] - 95 
+[2020-07-01 17:51:30 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:30 : INFO] - 95 
+[2020-07-01 17:51:31 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:31 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:31 : INFO] - 95 
+[2020-07-01 17:51:33 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:33 : INFO] - 95 
+[2020-07-01 17:51:36 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:36 : INFO] - 95 
+[2020-07-01 17:51:38 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:38 : INFO] - 95 
+[2020-07-01 17:51:40 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:40 : INFO] - 95 
+[2020-07-01 17:51:41 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:41 : INFO] - 95 
+[2020-07-01 17:51:41 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 17:51:41 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:41 : INFO] - 95 
+[2020-07-01 17:51:42 : INFO] - Re_Smush_It_Task with attachment ID : 4081, autocreated on : July 01, 2020 05:45:05 
+[2020-07-01 17:51:42 : INFO] - 95 
+[2020-07-01 17:51:43 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/revslider/sl2_11.png.Le fichier a été compressé de 8.79 KB à 6.65 KB en réduisant de 24.33 pourcent avec WP-Optimize. 
+[2020-07-01 17:51:44 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2020-07-01 17:51:44 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-07-01 17:51:44 : INFO] - Semaphore (smush) unlocked 
+[2020-07-01 17:51:44 : INFO] - Successfully processed the queue (smush). 5 tasks were processed out of 5. 
+[2020-07-01 17:51:44 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-07-01 17:51:44 : INFO] - Cleaning up tasks of type (smush). A total of 5 tasks will be deleted. 
+[2020-07-01 18:00:10 : INFO] - 
+ 
+[2020-07-01 18:00:10 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 18:00:10 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 18:00:10 : INFO] - WP: 5.4.2 
+[2020-07-01 18:00:10 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 18:00:10 : INFO] - MySQL: 5.7.29 
+[2020-07-01 18:00:10 : INFO] - WPLANG: fr_FR 
+[2020-07-01 18:00:10 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 18:00:10 : INFO] - Outbound connections: N 
+[2020-07-01 18:00:10 : INFO] - safe_mode: 0 
+[2020-07-01 18:00:10 : INFO] - max_execution_time: 600 
+[2020-07-01 18:00:10 : INFO] - memory_limit: 512M (used: 32.7M | 2M) 
+[2020-07-01 18:00:10 : INFO] - multisite: N 
+[2020-07-01 18:00:10 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 18:00:10 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2020-07-01 18:14:26 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:15:56 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:19:31 : INFO] - 
+ 
+[2020-07-01 18:19:31 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 18:19:31 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 18:19:31 : INFO] - WP: 5.4.2 
+[2020-07-01 18:19:31 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 18:19:31 : INFO] - MySQL: 5.7.29 
+[2020-07-01 18:19:31 : INFO] - WPLANG: fr_FR 
+[2020-07-01 18:19:31 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 18:19:31 : INFO] - Outbound connections: N 
+[2020-07-01 18:19:31 : INFO] - safe_mode: 0 
+[2020-07-01 18:19:31 : INFO] - max_execution_time: 600 
+[2020-07-01 18:19:31 : INFO] - memory_limit: 512M (used: 32.7M | 2M) 
+[2020-07-01 18:19:31 : INFO] - multisite: N 
+[2020-07-01 18:19:31 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 18:19:31 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2020-07-01 18:19:31 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 18:19:31 
+[2020-07-01 18:19:31 : INFO] - Semaphore lock (smush) complete 
+[2020-07-01 18:19:31 : INFO] - Processing task with ID : 7, and type 'smush' 
+[2020-07-01 18:19:31 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:19:31 : INFO] - 95 
+[2020-07-01 18:19:42 : INFO] - Task with ID 7 and type (smush) failed with error code http_request_failed - cURL error 28: Resolving timed out after 10520 milliseconds 
+[2020-07-01 18:19:42 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:19:42 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:19:42 : INFO] - 95 
+[2020-07-01 18:19:53 : INFO] - Task with ID 7 and type (smush) failed with error code http_request_failed - cURL error 28: Resolving timed out after 10519 milliseconds 
+[2020-07-01 18:19:53 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:19:53 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:19:53 : INFO] - 95 
+[2020-07-01 18:20:02 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:02 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:02 : INFO] - 95 
+[2020-07-01 18:20:03 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:03 : INFO] - 95 
+[2020-07-01 18:20:07 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:07 : INFO] - 95 
+[2020-07-01 18:20:07 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:07 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:07 : INFO] - 95 
+[2020-07-01 18:20:08 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:08 : INFO] - 95 
+[2020-07-01 18:20:10 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:10 : INFO] - 95 
+[2020-07-01 18:20:11 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:11 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:11 : INFO] - 95 
+[2020-07-01 18:20:15 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:15 : INFO] - 95 
+[2020-07-01 18:20:19 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:19 : INFO] - 95 
+[2020-07-01 18:20:25 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:25 : INFO] - 95 
+[2020-07-01 18:20:27 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:27 : INFO] - 95 
+[2020-07-01 18:20:28 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:28 : INFO] - 95 
+[2020-07-01 18:20:36 : INFO] - Task with ID 7 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 18:20:36 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/582f955136c65cdc0015941b856f4c4a\/_src_paniers-900x300.jpeg","dest":"http:\/\/par2.static.resmush.it\/582f955136c65cdc0015941b856f4c4a\/paniers-900x300.jpeg","src_size":88291,"dest_size":81709,"percent":7,"output":"json","expires":"Wed, 01 Jul 2020 20:25:30 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 18:20:36 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:36 : INFO] - 95 
+[2020-07-01 18:20:39 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:39 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:39 : INFO] - 95 
+[2020-07-01 18:20:40 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:40 : INFO] - 95 
+[2020-07-01 18:20:41 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:41 : INFO] - 95 
+[2020-07-01 18:20:41 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:41 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:41 : INFO] - 95 
+[2020-07-01 18:20:50 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:50 : INFO] - Re_Smush_It_Task with attachment ID : 4082, autocreated on : July 01, 2020 06:14:25 
+[2020-07-01 18:20:50 : INFO] - 95 
+[2020-07-01 18:20:51 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:51 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/paniers.jpeg.Le fichier a été compressé de 445.52 KB à 445.52 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 18:20:51 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2020-07-01 18:20:52 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 18:20:52 
+[2020-07-01 18:20:52 : INFO] - Processing task with ID : 8, and type 'smush' 
+[2020-07-01 18:20:52 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:52 : INFO] - 95 
+[2020-07-01 18:20:54 : INFO] - Backing up the original image - 2020/07/panier-updraft-pre-smush-original.jpeg 
+[2020-07-01 18:20:54 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:54 : INFO] - 95 
+[2020-07-01 18:20:54 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:54 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:54 : INFO] - 95 
+[2020-07-01 18:20:55 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:55 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:55 : INFO] - 95 
+[2020-07-01 18:20:56 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:56 : INFO] - 95 
+[2020-07-01 18:20:56 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:56 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:56 : INFO] - 95 
+[2020-07-01 18:20:57 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:57 : INFO] - 95 
+[2020-07-01 18:20:58 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:58 : INFO] - 95 
+[2020-07-01 18:20:59 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:20:59 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:20:59 : INFO] - 95 
+[2020-07-01 18:21:00 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:00 : INFO] - 95 
+[2020-07-01 18:21:01 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:21:01 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:01 : INFO] - 95 
+[2020-07-01 18:21:02 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:02 : INFO] - 95 
+[2020-07-01 18:21:04 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:04 : INFO] - 95 
+[2020-07-01 18:21:06 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:06 : INFO] - 95 
+[2020-07-01 18:21:07 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:07 : INFO] - 95 
+[2020-07-01 18:21:08 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:08 : INFO] - 95 
+[2020-07-01 18:21:08 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:21:08 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:08 : INFO] - 95 
+[2020-07-01 18:21:09 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:21:09 : INFO] - Re_Smush_It_Task with attachment ID : 4083, autocreated on : July 01, 2020 06:15:56 
+[2020-07-01 18:21:09 : INFO] - 95 
+[2020-07-01 18:21:09 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:21:09 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/panier.jpeg.Le fichier a été compressé de 80.02 KB à 80.02 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 18:21:09 : INFO] - Completed processing task with ID : 8, and type 'smush' 
+[2020-07-01 18:21:09 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-07-01 18:21:10 : INFO] - Semaphore (smush) unlocked 
+[2020-07-01 18:21:10 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2020-07-01 18:21:10 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-07-01 18:21:10 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2020-07-01 18:27:38 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:00 : INFO] - 
+ 
+[2020-07-01 18:30:00 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 18:30:00 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 18:30:00 : INFO] - WP: 5.4.2 
+[2020-07-01 18:30:00 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 18:30:00 : INFO] - MySQL: 5.7.29 
+[2020-07-01 18:30:00 : INFO] - WPLANG: fr_FR 
+[2020-07-01 18:30:00 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 18:30:00 : INFO] - Outbound connections: N 
+[2020-07-01 18:30:00 : INFO] - safe_mode: 0 
+[2020-07-01 18:30:00 : INFO] - max_execution_time: 600 
+[2020-07-01 18:30:00 : INFO] - memory_limit: 512M (used: 32.5M | 2M) 
+[2020-07-01 18:30:00 : INFO] - multisite: N 
+[2020-07-01 18:30:00 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 18:30:00 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2020-07-01 18:30:00 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 18:30:00 
+[2020-07-01 18:30:00 : INFO] - Semaphore lock (smush) complete 
+[2020-07-01 18:30:00 : INFO] - Processing task with ID : 9, and type 'smush' 
+[2020-07-01 18:30:00 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:00 : INFO] - 95 
+[2020-07-01 18:30:30 : INFO] - Backing up the original image - 2020/07/pan-updraft-pre-smush-original.png 
+[2020-07-01 18:30:30 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:30 : INFO] - 95 
+[2020-07-01 18:30:36 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:36 : INFO] - 95 
+[2020-07-01 18:30:36 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:30:36 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:36 : INFO] - 95 
+[2020-07-01 18:30:37 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:30:37 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:37 : INFO] - 95 
+[2020-07-01 18:30:37 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:30:37 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:37 : INFO] - 95 
+[2020-07-01 18:30:44 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:44 : INFO] - 95 
+[2020-07-01 18:30:44 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:30:44 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:44 : INFO] - 95 
+[2020-07-01 18:30:44 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:30:44 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:44 : INFO] - 95 
+[2020-07-01 18:30:51 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:30:51 : INFO] - 95 
+[2020-07-01 18:31:00 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:31:00 : INFO] - 95 
+[2020-07-01 18:31:17 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:31:17 : INFO] - 95 
+[2020-07-01 18:31:33 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:31:33 : INFO] - 95 
+[2020-07-01 18:31:45 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:31:45 : INFO] - 95 
+[2020-07-01 18:32:08 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:32:08 : INFO] - 95 
+[2020-07-01 18:32:09 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:32:09 : INFO] - 95 
+[2020-07-01 18:32:10 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:32:10 : INFO] - 95 
+[2020-07-01 18:32:15 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:32:15 : INFO] - 95 
+[2020-07-01 18:32:30 : INFO] - Re_Smush_It_Task with attachment ID : 4084, autocreated on : July 01, 2020 06:27:38 
+[2020-07-01 18:32:30 : INFO] - 95 
+[2020-07-01 18:32:32 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/pan.png.Le fichier a été compressé de 995.91 KB à 385.07 KB en réduisant de 61.34 pourcent avec WP-Optimize. 
+[2020-07-01 18:32:32 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2020-07-01 18:32:32 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 18:32:32 
+[2020-07-01 18:32:33 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-07-01 18:32:33 : INFO] - Semaphore (smush) unlocked 
+[2020-07-01 18:32:33 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2020-07-01 18:32:33 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-07-01 18:32:33 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2020-07-01 18:40:16 : INFO] - 
+ 
+[2020-07-01 18:40:16 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 18:40:16 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 18:40:16 : INFO] - WP: 5.4.2 
+[2020-07-01 18:40:16 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 18:40:16 : INFO] - MySQL: 5.7.29 
+[2020-07-01 18:40:16 : INFO] - WPLANG: fr_FR 
+[2020-07-01 18:40:16 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 18:40:16 : INFO] - Outbound connections: N 
+[2020-07-01 18:40:16 : INFO] - safe_mode: 0 
+[2020-07-01 18:40:16 : INFO] - max_execution_time: 600 
+[2020-07-01 18:40:16 : INFO] - memory_limit: 512M (used: 32.5M | 2M) 
+[2020-07-01 18:40:16 : INFO] - multisite: N 
+[2020-07-01 18:40:16 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 18:40:16 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2020-07-01 18:44:14 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:50:22 : INFO] - 
+ 
+[2020-07-01 18:50:22 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 18:50:22 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 18:50:22 : INFO] - WP: 5.4.2 
+[2020-07-01 18:50:22 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 18:50:22 : INFO] - MySQL: 5.7.29 
+[2020-07-01 18:50:22 : INFO] - WPLANG: fr_FR 
+[2020-07-01 18:50:22 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 18:50:22 : INFO] - Outbound connections: N 
+[2020-07-01 18:50:22 : INFO] - safe_mode: 0 
+[2020-07-01 18:50:22 : INFO] - max_execution_time: 600 
+[2020-07-01 18:50:22 : INFO] - memory_limit: 512M (used: 32.5M | 2M) 
+[2020-07-01 18:50:22 : INFO] - multisite: N 
+[2020-07-01 18:50:22 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 18:50:22 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2020-07-01 18:50:22 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 18:50:22 
+[2020-07-01 18:50:22 : INFO] - Semaphore lock (smush) complete 
+[2020-07-01 18:50:22 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2020-07-01 18:50:22 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:50:22 : INFO] - 95 
+[2020-07-01 18:50:53 : INFO] - Task with ID 10 and type (smush) failed with error code http_request_failed - cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received 
+[2020-07-01 18:50:53 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:50:53 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:50:53 : INFO] - 95 
+[2020-07-01 18:50:57 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:50:57 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:50:57 : INFO] - 95 
+[2020-07-01 18:51:27 : INFO] - Task with ID 10 and type (smush) failed with error code http_request_failed - cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received 
+[2020-07-01 18:51:28 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:51:28 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:51:28 : INFO] - 95 
+[2020-07-01 18:51:31 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:51:31 : INFO] - 95 
+[2020-07-01 18:51:35 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:51:35 : INFO] - 95 
+[2020-07-01 18:51:35 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 18:51:35 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:51:35 : INFO] - 95 
+[2020-07-01 18:51:36 : INFO] - Re_Smush_It_Task with attachment ID : 4085, autocreated on : July 01, 2020 06:44:13 
+[2020-07-01 18:51:36 : INFO] - 95 
+[2020-07-01 18:51:38 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/ensemble-panier.png.Le fichier a été compressé de 113.84 KB à 113.84 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 18:51:38 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2020-07-01 18:51:38 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 18:51:38 
+[2020-07-01 18:51:38 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-07-01 18:51:38 : INFO] - Semaphore (smush) unlocked 
+[2020-07-01 18:51:38 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2020-07-01 18:51:39 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-07-01 18:51:39 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2020-07-01 18:52:18 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 18:55:39 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 18:58:03 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:00:24 : INFO] - 
+ 
+[2020-07-01 19:00:24 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 19:00:24 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 19:00:24 : INFO] - WP: 5.4.2 
+[2020-07-01 19:00:24 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 19:00:24 : INFO] - MySQL: 5.7.29 
+[2020-07-01 19:00:24 : INFO] - WPLANG: fr_FR 
+[2020-07-01 19:00:24 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 19:00:24 : INFO] - Outbound connections: N 
+[2020-07-01 19:00:24 : INFO] - safe_mode: 0 
+[2020-07-01 19:00:24 : INFO] - max_execution_time: 600 
+[2020-07-01 19:00:24 : INFO] - memory_limit: 512M (used: 32.7M | 2M) 
+[2020-07-01 19:00:24 : INFO] - multisite: N 
+[2020-07-01 19:00:24 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 19:00:24 : INFO] - A total of 3 tasks of type smush found and will be processed in this iteration 
+[2020-07-01 19:00:25 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 19:00:25 
+[2020-07-01 19:00:25 : INFO] - Semaphore lock (smush) complete 
+[2020-07-01 19:00:25 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2020-07-01 19:00:25 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:00:25 : INFO] - 95 
+[2020-07-01 19:00:55 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received 
+[2020-07-01 19:00:55 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:00:55 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:00:55 : INFO] - 95 
+[2020-07-01 19:01:22 : INFO] - Task with ID 11 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:01:22 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/5c1ee208c9c7ac1b9acce62ab60c5a70\/_src_imageonline-co-transparentimage-300x270.png","dest":"http:\/\/par3.static.resmush.it\/5c1ee208c9c7ac1b9acce62ab60c5a70\/imageonline-co-transparentimage-300x270.png","src_size":110440,"dest_size":32583,"percent":70,"output":"json","expires":"Wed, 01 Jul 2020 21:06:16 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:01:22 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:01:22 : INFO] - 95 
+[2020-07-01 19:01:33 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Connection timed out after 10001 milliseconds 
+[2020-07-01 19:01:33 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:01:33 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:01:33 : INFO] - 95 
+[2020-07-01 19:01:44 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Connection timed out after 10001 milliseconds 
+[2020-07-01 19:01:44 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:01:44 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:01:44 : INFO] - 95 
+[2020-07-01 19:01:54 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Connection timed out after 10000 milliseconds 
+[2020-07-01 19:01:55 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:01:55 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:01:55 : INFO] - 95 
+[2020-07-01 19:02:05 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Connection timed out after 10000 milliseconds 
+[2020-07-01 19:02:05 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:02:05 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:02:05 : INFO] - 95 
+[2020-07-01 19:02:16 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Connection timed out after 10000 milliseconds 
+[2020-07-01 19:02:17 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:02:17 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:02:17 : INFO] - 95 
+[2020-07-01 19:02:19 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:02:19 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:02:19 : INFO] - 95 
+[2020-07-01 19:02:37 : INFO] - Task with ID 11 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:02:37 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/841d7772e78a2f4829a4fcd6f76c7cd0\/_src_imageonline-co-transparentimage-500x230.png","dest":"http:\/\/par2.static.resmush.it\/841d7772e78a2f4829a4fcd6f76c7cd0\/imageonline-co-transparentimage-500x230.png","src_size":180071,"dest_size":55116,"percent":69,"output":"json","expires":"Wed, 01 Jul 2020 21:07:29 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:02:37 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:02:37 : INFO] - 95 
+[2020-07-01 19:02:48 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Resolving timed out after 10518 milliseconds 
+[2020-07-01 19:02:48 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:02:48 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:02:48 : INFO] - 95 
+[2020-07-01 19:03:23 : INFO] - Task with ID 11 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:03:23 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/972280e6c263d1e9720955db09698595\/_src_imageonline-co-transparentimage-700x450.png","dest":"http:\/\/par3.static.resmush.it\/972280e6c263d1e9720955db09698595\/imageonline-co-transparentimage-700x450.png","src_size":399093,"dest_size":122491,"percent":69,"output":"json","expires":"Wed, 01 Jul 2020 21:08:15 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:03:23 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:23 : INFO] - 95 
+[2020-07-01 19:03:33 : INFO] - Task with ID 11 and type (smush) failed with error code http_request_failed - cURL error 28: Connection timed out after 10001 milliseconds 
+[2020-07-01 19:03:33 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:03:33 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:33 : INFO] - 95 
+[2020-07-01 19:03:39 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:03:39 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:39 : INFO] - 95 
+[2020-07-01 19:03:40 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:03:40 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:40 : INFO] - 95 
+[2020-07-01 19:03:41 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:41 : INFO] - 95 
+[2020-07-01 19:03:42 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:42 : INFO] - 95 
+[2020-07-01 19:03:51 : INFO] - Task with ID 11 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:03:51 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/35b6a0442b898e218fb0ce32376ec685\/_src_imageonline-co-transparentimage-300x300.png","dest":"http:\/\/par2.static.resmush.it\/35b6a0442b898e218fb0ce32376ec685\/imageonline-co-transparentimage-300x300.png","src_size":118838,"dest_size":33819,"percent":72,"output":"json","expires":"Wed, 01 Jul 2020 21:08:45 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:03:51 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:03:51 : INFO] - 95 
+[2020-07-01 19:04:05 : INFO] - Re_Smush_It_Task with attachment ID : 4086, autocreated on : July 01, 2020 06:52:17 
+[2020-07-01 19:04:05 : INFO] - 95 
+[2020-07-01 19:04:06 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:04:06 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/imageonline-co-transparentimage.png.Le fichier a été compressé de 711.46 KB à 711.46 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 19:04:06 : INFO] - Completed processing task with ID : 11, and type 'smush' 
+[2020-07-01 19:04:06 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 19:04:06 
+[2020-07-01 19:04:06 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2020-07-01 19:04:06 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:04:06 : INFO] - 95 
+[2020-07-01 19:04:36 : INFO] - Task with ID 12 and type (smush) failed with error code http_request_failed - cURL error 28: Operation timed out after 30000 milliseconds with 0 bytes received 
+[2020-07-01 19:04:37 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:04:37 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:04:37 : INFO] - 95 
+[2020-07-01 19:04:42 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:04:42 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:04:42 : INFO] - 95 
+[2020-07-01 19:04:48 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:04:48 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:04:48 : INFO] - 95 
+[2020-07-01 19:04:59 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:04:59 : INFO] - 95 
+[2020-07-01 19:04:59 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:04:59 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:04:59 : INFO] - 95 
+[2020-07-01 19:05:00 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:05:00 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:00 : INFO] - 95 
+[2020-07-01 19:05:00 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:05:00 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:00 : INFO] - 95 
+[2020-07-01 19:05:00 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:05:00 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:00 : INFO] - 95 
+[2020-07-01 19:05:01 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:05:01 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:01 : INFO] - 95 
+[2020-07-01 19:05:15 : INFO] - Task with ID 12 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:05:15 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/e0118da13db48688f7ac96aa0409f18c\/_src_imageonline-co-transparentimage-1-500x230.png","dest":"http:\/\/par3.static.resmush.it\/e0118da13db48688f7ac96aa0409f18c\/imageonline-co-transparentimage-1-500x230.png","src_size":250957,"dest_size":98545,"percent":61,"output":"json","expires":"Wed, 01 Jul 2020 21:10:09 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:05:15 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:15 : INFO] - 95 
+[2020-07-01 19:05:36 : INFO] - Task with ID 12 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:05:37 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/46f08c134879b1b4fc591c298f6608df\/_src_imageonline-co-transparentimage-1-500x300.png","dest":"http:\/\/par2.static.resmush.it\/46f08c134879b1b4fc591c298f6608df\/imageonline-co-transparentimage-1-500x300.png","src_size":315179,"dest_size":121117,"percent":62,"output":"json","expires":"Wed, 01 Jul 2020 21:10:31 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:05:37 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:37 : INFO] - 95 
+[2020-07-01 19:05:46 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:05:46 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:05:46 : INFO] - 95 
+[2020-07-01 19:06:00 : INFO] - Task with ID 12 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:06:00 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/f6340899cc7b93c1587a94865d31c495\/_src_imageonline-co-transparentimage-1-500x350.png","dest":"http:\/\/par3.static.resmush.it\/f6340899cc7b93c1587a94865d31c495\/imageonline-co-transparentimage-1-500x350.png","src_size":351390,"dest_size":133316,"percent":62,"output":"json","expires":"Wed, 01 Jul 2020 21:10:55 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:06:00 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:00 : INFO] - 95 
+[2020-07-01 19:06:02 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:06:02 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:02 : INFO] - 95 
+[2020-07-01 19:06:29 : INFO] - Task with ID 12 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:06:29 : INFO] - data: {"src":"http:\/\/par2.static.resmush.it\/10cbe3e9e554e6e40e3879317d3b24cb\/_src_imageonline-co-transparentimage-1-900x500.png","dest":"http:\/\/par2.static.resmush.it\/10cbe3e9e554e6e40e3879317d3b24cb\/imageonline-co-transparentimage-1-900x500.png","src_size":777169,"dest_size":345208,"percent":56,"output":"json","expires":"Wed, 01 Jul 2020 21:11:23 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:06:29 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:29 : INFO] - 95 
+[2020-07-01 19:06:39 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:39 : INFO] - 95 
+[2020-07-01 19:06:45 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:45 : INFO] - 95 
+[2020-07-01 19:06:53 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:53 : INFO] - 95 
+[2020-07-01 19:06:53 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:06:53 : INFO] - Re_Smush_It_Task with attachment ID : 4087, autocreated on : July 01, 2020 06:55:39 
+[2020-07-01 19:06:53 : INFO] - 95 
+[2020-07-01 19:06:55 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/imageonline-co-transparentimage-1.png.Le fichier a été compressé de 1.93 MB à 1.93 MB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 19:06:56 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2020-07-01 19:06:56 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 19:06:56 
+[2020-07-01 19:06:56 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2020-07-01 19:06:56 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:06:56 : INFO] - 95 
+[2020-07-01 19:06:57 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:06:57 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:06:57 : INFO] - 95 
+[2020-07-01 19:07:01 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:01 : INFO] - 95 
+[2020-07-01 19:07:02 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:02 : INFO] - 95 
+[2020-07-01 19:07:04 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:04 : INFO] - 95 
+[2020-07-01 19:07:08 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:08 : INFO] - 95 
+[2020-07-01 19:07:09 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:09 : INFO] - 95 
+[2020-07-01 19:07:14 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:14 : INFO] - 95 
+[2020-07-01 19:07:18 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:18 : INFO] - 95 
+[2020-07-01 19:07:22 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:22 : INFO] - 95 
+[2020-07-01 19:07:22 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:07:22 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:22 : INFO] - 95 
+[2020-07-01 19:07:26 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:26 : INFO] - 95 
+[2020-07-01 19:07:31 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:31 : INFO] - 95 
+[2020-07-01 19:07:41 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:41 : INFO] - 95 
+[2020-07-01 19:07:41 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:07:41 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:41 : INFO] - 95 
+[2020-07-01 19:07:42 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:42 : INFO] - 95 
+[2020-07-01 19:07:49 : INFO] - Task with ID 13 and type (smush) failed with error code invalid_response - The compression apparently succeeded, but WP-Optimize could not retrieve the compressed image from the remote server. 
+[2020-07-01 19:07:49 : INFO] - data: {"src":"http:\/\/par3.static.resmush.it\/c553c35ed349aceb3abc9ffe11d8483b\/_src_imageonline-co-transparentimage-2-300x300.png","dest":"http:\/\/par3.static.resmush.it\/c553c35ed349aceb3abc9ffe11d8483b\/imageonline-co-transparentimage-2-300x300.png","src_size":110712,"dest_size":37517,"percent":66,"output":"json","expires":"Wed, 01 Jul 2020 21:12:43 +0200","generator":"reSmush.it rev.2.0.6.20200328"} 
+[2020-07-01 19:07:49 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:49 : INFO] - 95 
+[2020-07-01 19:07:50 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2020-07-01 19:07:50 : INFO] - Re_Smush_It_Task with attachment ID : 4088, autocreated on : July 01, 2020 06:58:02 
+[2020-07-01 19:07:50 : INFO] - 95 
+[2020-07-01 19:07:52 : INFO] - Successfully optimized the image - /var/www/html/qls/wordpress/wp-content/uploads/2020/07/imageonline-co-transparentimage-2.png.Le fichier a été compressé de 569.01 KB à 569.01 KB en réduisant de 0 pourcent avec WP-Optimize. 
+[2020-07-01 19:07:52 : INFO] - Completed processing task with ID : 13, and type 'smush' 
+[2020-07-01 19:07:52 : INFO] - Set semaphore last lock (smush) time to 2020-07-01 19:07:52 
+[2020-07-01 19:07:52 : INFO] - Decremented the semaphore (smush) by 1 
+[2020-07-01 19:07:52 : INFO] - Semaphore (smush) unlocked 
+[2020-07-01 19:07:52 : INFO] - Successfully processed the queue (smush). 3 tasks were processed out of 3. 
+[2020-07-01 19:07:52 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2020-07-01 19:07:52 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2020-07-01 19:11:38 : INFO] - 
+ 
+[2020-07-01 19:11:38 : INFO] - Header for logs at time:  Wed, 01 Jul 2020 19:11:38 +0000 on http://localhost/qls/wordpress 
+[2020-07-01 19:11:38 : INFO] - WP: 5.4.2 
+[2020-07-01 19:11:38 : INFO] - PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) 
+[2020-07-01 19:11:38 : INFO] - MySQL: 5.7.29 
+[2020-07-01 19:11:38 : INFO] - WPLANG: fr_FR 
+[2020-07-01 19:11:38 : INFO] - Server: Apache/2.4.29 (Ubuntu) 
+[2020-07-01 19:11:38 : INFO] - Outbound connections: N 
+[2020-07-01 19:11:38 : INFO] - safe_mode: 0 
+[2020-07-01 19:11:38 : INFO] - max_execution_time: 600 
+[2020-07-01 19:11:38 : INFO] - memory_limit: 512M (used: 32.7M | 2M) 
+[2020-07-01 19:11:38 : INFO] - multisite: N 
+[2020-07-01 19:11:38 : INFO] - openssl: OpenSSL 1.1.1  11 Sep 2018 
+[2020-07-01 19:11:38 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 

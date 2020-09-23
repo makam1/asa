@@ -1,0 +1,588 @@
+0000.000 (0) Opened log file at time: Tue, 30 Jun 2020 18:30:40 +0000 on http://localhost/qls/wordpress
+0000.062 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.25 WP: 5.4.2 PHP: 7.2.24-0ubuntu0.18.04.3 (apache2handler, Linux mak-ThinkPad-Edge-E330 5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020 x86_64) MySQL: 5.7.29-0ubuntu0.18.04.1 WPLANG: fr_FR Server: Apache/2.4.29 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 31.5M | 6M) multisite: N openssl: OpenSSL 1.1.1  11 Sep 2018 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.144 (0) Free space on disk containing Updraft's temporary directory: 2406.3 MB
+0000.236 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.324 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.502 (0) Set semaphore last lock (fd) time to 2020-06-30 18:30:40
+0000.547 (0) Semaphore lock (fd) complete
+0000.703 (0) Backup run: resumption=0, nonce=127389a1d315, file_nonce=127389a1d315 begun at=1593541840 (1s ago), job type=backup
+0000.804 (0) Scheduling a resumption (1) after 300 seconds (1593542141) in case this run gets aborted
+0000.949 (0) Checking if we have a zip executable available
+0001.004 (0) Testing: /usr/bin/zip
+0001.080 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.183 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.250 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.295 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.340 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.391 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.441 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.486 (0) Working binary zip found: /usr/bin/zip
+0001.575 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.619 (0) Creation of backups of directories: beginning
+0001.754 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.167 (0) Total entities for the zip file: 1786 directories, 12008 files (0 skipped as non-modified), 219.4 MB
+0002.285 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.351 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.416 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.486 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.552 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.603 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 12008 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.992 (0) backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: size is now: 1.80 MB
+0003.193 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 600 files added (on-disk size: 1884.2 KB)
+0003.266 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 700 files added (on-disk size: 1884.2 KB)
+0003.332 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 800 files added (on-disk size: 1884.2 KB)
+0003.397 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 900 files added (on-disk size: 1884.2 KB)
+0003.467 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1000 files added (on-disk size: 1884.2 KB)
+0003.517 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 12008 files batched, 501 (1002) added so far); re-opening (prior size: 1884.2 KB)
+0003.707 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1100 files added (on-disk size: 2119 KB)
+0003.762 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1200 files added (on-disk size: 2119 KB)
+0003.815 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1300 files added (on-disk size: 2119 KB)
+0003.859 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1400 files added (on-disk size: 2119 KB)
+0003.915 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1500 files added (on-disk size: 2119 KB)
+0003.951 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 12008 files batched, 501 (1503) added so far); re-opening (prior size: 2119 KB)
+0004.484 (0) backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: size is now: 4.60 MB
+0004.583 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1600 files added (on-disk size: 4717.2 KB)
+0004.639 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1700 files added (on-disk size: 4717.2 KB)
+0004.694 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 12008 files batched, 279 (1782) added so far); re-opening (prior size: 4717.2 KB)
+0005.711 (0) backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: size is now: 9.90 MB
+0005.810 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 2.1 s, rate: 12316.9 KB/s)
+0005.900 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1085500717163, normalised_time=2.0784405762514, max_time=5.8546390533447, data points known=1, old_max_bytes=26214400, new_max_bytes=75675196)
+0005.994 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1800 files added (on-disk size: 10144.5 KB)
+0006.105 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 1900 files added (on-disk size: 10144.5 KB)
+0006.220 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2000 files added (on-disk size: 10144.5 KB)
+0006.284 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2100 files added (on-disk size: 10144.5 KB)
+0006.352 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2200 files added (on-disk size: 10144.5 KB)
+0006.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (43.4 MB, 12008 files batched, 501 (2283) added so far); re-opening (prior size: 10144.5 KB)
+0007.463 (0) backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: size is now: 16.60 MB
+0007.594 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2300 files added (on-disk size: 16991.8 KB)
+0007.675 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2400 files added (on-disk size: 16991.8 KB)
+0007.738 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2500 files added (on-disk size: 16991.8 KB)
+0007.800 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2600 files added (on-disk size: 16991.8 KB)
+0007.868 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2700 files added (on-disk size: 16991.8 KB)
+0007.939 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 12008 files batched, 501 (2784) added so far); re-opening (prior size: 16991.8 KB)
+0008.679 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2800 files added (on-disk size: 17908 KB)
+0008.737 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 2900 files added (on-disk size: 17908 KB)
+0008.795 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3000 files added (on-disk size: 17908 KB)
+0008.863 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3100 files added (on-disk size: 17908 KB)
+0008.926 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3200 files added (on-disk size: 17908 KB)
+0008.981 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 12008 files batched, 501 (3285) added so far); re-opening (prior size: 17908 KB)
+0009.674 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3300 files added (on-disk size: 19453.5 KB)
+0009.738 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3400 files added (on-disk size: 19453.5 KB)
+0009.807 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3500 files added (on-disk size: 19453.5 KB)
+0009.955 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3600 files added (on-disk size: 19453.5 KB)
+0010.087 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3700 files added (on-disk size: 19453.5 KB)
+0010.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 12008 files batched, 501 (3786) added so far); re-opening (prior size: 19453.5 KB)
+0010.799 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3800 files added (on-disk size: 20954.7 KB)
+0010.858 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 3900 files added (on-disk size: 20954.7 KB)
+0010.911 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4000 files added (on-disk size: 20954.7 KB)
+0010.966 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4100 files added (on-disk size: 20954.7 KB)
+0011.024 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4200 files added (on-disk size: 20954.7 KB)
+0011.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 12008 files batched, 501 (4287) added so far); re-opening (prior size: 20954.7 KB)
+0011.621 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4300 files added (on-disk size: 22348.8 KB)
+0011.681 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4400 files added (on-disk size: 22348.8 KB)
+0011.728 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4500 files added (on-disk size: 22348.8 KB)
+0011.791 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4600 files added (on-disk size: 22348.8 KB)
+0011.879 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4700 files added (on-disk size: 22348.8 KB)
+0011.932 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 12008 files batched, 501 (4788) added so far); re-opening (prior size: 22348.8 KB)
+0012.314 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4800 files added (on-disk size: 25968.4 KB)
+0012.372 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 4900 files added (on-disk size: 25968.4 KB)
+0012.439 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5000 files added (on-disk size: 25968.4 KB)
+0012.505 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5100 files added (on-disk size: 25968.4 KB)
+0012.570 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5200 files added (on-disk size: 25968.4 KB)
+0012.629 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 MB, 12008 files batched, 501 (5289) added so far); re-opening (prior size: 25968.4 KB)
+0012.949 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5300 files added (on-disk size: 27218.3 KB)
+0013.019 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5400 files added (on-disk size: 27218.3 KB)
+0013.100 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5500 files added (on-disk size: 27218.3 KB)
+0013.197 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5600 files added (on-disk size: 27218.3 KB)
+0013.335 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5700 files added (on-disk size: 27218.3 KB)
+0013.386 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 12008 files batched, 501 (5790) added so far); re-opening (prior size: 27218.3 KB)
+0013.851 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5800 files added (on-disk size: 29378.7 KB)
+0013.921 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 5900 files added (on-disk size: 29378.7 KB)
+0013.987 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6000 files added (on-disk size: 29378.7 KB)
+0014.053 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6100 files added (on-disk size: 29378.7 KB)
+0014.203 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6200 files added (on-disk size: 29378.7 KB)
+0014.267 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15 MB, 12008 files batched, 501 (6291) added so far); re-opening (prior size: 29378.7 KB)
+0015.073 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6300 files added (on-disk size: 33011.6 KB)
+0015.190 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6400 files added (on-disk size: 33011.6 KB)
+0015.251 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6500 files added (on-disk size: 33011.6 KB)
+0015.307 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6600 files added (on-disk size: 33011.6 KB)
+0015.363 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6700 files added (on-disk size: 33011.6 KB)
+0015.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 12008 files batched, 501 (6792) added so far); re-opening (prior size: 33011.6 KB)
+0016.404 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6800 files added (on-disk size: 35152.4 KB)
+0016.476 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 6900 files added (on-disk size: 35152.4 KB)
+0016.541 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7000 files added (on-disk size: 35152.4 KB)
+0016.608 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7100 files added (on-disk size: 35152.4 KB)
+0016.678 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7200 files added (on-disk size: 35152.4 KB)
+0016.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 12008 files batched, 501 (7293) added so far); re-opening (prior size: 35152.4 KB)
+0017.728 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7300 files added (on-disk size: 37469 KB)
+0017.798 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7400 files added (on-disk size: 37469 KB)
+0017.862 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7500 files added (on-disk size: 37469 KB)
+0017.928 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7600 files added (on-disk size: 37469 KB)
+0017.997 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7700 files added (on-disk size: 37469 KB)
+0018.085 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.6 MB, 12008 files batched, 501 (7794) added so far); re-opening (prior size: 37469 KB)
+0020.034 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7800 files added (on-disk size: 42714 KB)
+0020.227 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 7900 files added (on-disk size: 42714 KB)
+0020.299 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8000 files added (on-disk size: 42714 KB)
+0020.363 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8100 files added (on-disk size: 42714 KB)
+0020.466 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8200 files added (on-disk size: 42714 KB)
+0020.520 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 12008 files batched, 501 (8295) added so far); re-opening (prior size: 42714 KB)
+0021.005 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8300 files added (on-disk size: 43534.4 KB)
+0021.090 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8400 files added (on-disk size: 43534.4 KB)
+0021.186 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8500 files added (on-disk size: 43534.4 KB)
+0021.247 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8600 files added (on-disk size: 43534.4 KB)
+0021.331 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8700 files added (on-disk size: 43534.4 KB)
+0021.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 12008 files batched, 501 (8796) added so far); re-opening (prior size: 43534.4 KB)
+0022.230 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8800 files added (on-disk size: 45397.5 KB)
+0022.292 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 8900 files added (on-disk size: 45397.5 KB)
+0022.343 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9000 files added (on-disk size: 45397.5 KB)
+0022.404 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9100 files added (on-disk size: 45397.5 KB)
+0022.457 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9200 files added (on-disk size: 45397.5 KB)
+0022.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 12008 files batched, 501 (9297) added so far); re-opening (prior size: 45397.5 KB)
+0023.412 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9300 files added (on-disk size: 47050.8 KB)
+0023.473 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9400 files added (on-disk size: 47050.8 KB)
+0023.532 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9500 files added (on-disk size: 47050.8 KB)
+0023.593 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9600 files added (on-disk size: 47050.8 KB)
+0023.662 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9700 files added (on-disk size: 47050.8 KB)
+0023.733 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 12008 files batched, 501 (9798) added so far); re-opening (prior size: 47050.8 KB)
+0025.212 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9800 files added (on-disk size: 49999.7 KB)
+0025.376 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 9900 files added (on-disk size: 49999.7 KB)
+0025.656 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10000 files added (on-disk size: 49999.7 KB)
+0025.720 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10100 files added (on-disk size: 49999.7 KB)
+0025.790 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10200 files added (on-disk size: 49999.7 KB)
+0025.854 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 12008 files batched, 501 (10299) added so far); re-opening (prior size: 49999.7 KB)
+0026.608 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10300 files added (on-disk size: 50631.8 KB)
+0026.672 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10400 files added (on-disk size: 50631.8 KB)
+0026.735 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10500 files added (on-disk size: 50631.8 KB)
+0026.790 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10600 files added (on-disk size: 50631.8 KB)
+0026.847 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10700 files added (on-disk size: 50631.8 KB)
+0026.901 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 12008 files batched, 501 (10800) added so far); re-opening (prior size: 50631.8 KB)
+0028.324 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10800 files added (on-disk size: 54864.8 KB)
+0028.385 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 10900 files added (on-disk size: 54864.8 KB)
+0028.455 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11000 files added (on-disk size: 54864.8 KB)
+0028.516 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11100 files added (on-disk size: 54864.8 KB)
+0028.575 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11200 files added (on-disk size: 54864.8 KB)
+0028.640 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11300 files added (on-disk size: 54864.8 KB)
+0028.691 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 12008 files batched, 501 (11301) added so far); re-opening (prior size: 54864.8 KB)
+0029.340 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11400 files added (on-disk size: 57215.5 KB)
+0029.420 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11500 files added (on-disk size: 57215.5 KB)
+0029.535 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11600 files added (on-disk size: 57215.5 KB)
+0029.668 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11700 files added (on-disk size: 57215.5 KB)
+0029.741 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11800 files added (on-disk size: 57215.5 KB)
+0029.786 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 12008 files batched, 501 (11802) added so far); re-opening (prior size: 57215.5 KB)
+0030.272 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 11900 files added (on-disk size: 61268.6 KB)
+0030.326 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip.tmp: 12000 files added (on-disk size: 61268.6 KB)
+0031.983 (0) Created plugins zip (0) - 63308.1 KB in 30.2 s (2097.5 KB/s) (sha1: 63742cb4902f4e303ff23d495a0daa614a8dd58d, sha256: 49fdcc61ea8fe3e3445f93d16dbc4bbea7c0751a08d11d0e9cf902a5680ecbe1)
+0032.147 (0) Beginning creation of dump of themes (split every: 400 MB)
+0032.280 (0) Total entities for the zip file: 24 directories, 246 files (0 skipped as non-modified), 5.8 MB
+0032.347 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0032.404 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0032.594 (0) backup_2020-06-30-2030_Barawa_127389a1d315-themes.zip.tmp: size is now: 4.00 MB
+0032.819 (0) Created themes zip (0) - 4109.2 KB in 0.6 s (6847.5 KB/s) (sha1: 7ea84ad8aa2fa4adbf1f9c623afdf96956a70c6b, sha256: 4905fa94572d166178e906b85fc6618edc99a46d4dc0addfaed0514a6580ceec)
+0032.920 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0032.964 (0) Looking for candidates to backup in: /var/www/html/qls/wordpress/wp-content/uploads
+0033.009 (0) finding files: revslider: adding to list (1)
+0033.073 (0) finding files: masterslider: adding to list (2)
+0033.166 (0) finding files: woocommerce_uploads: adding to list (3)
+0033.243 (0) finding files: smush-f725dc0b74722ea70bb0.log: adding to list (4)
+0033.288 (0) finding files: 2016: adding to list (5)
+0033.332 (0) finding files: 2015: adding to list (6)
+0033.377 (0) finding files: wc-logs: adding to list (7)
+0033.422 (0) finding files: 2020: adding to list (8)
+0033.466 (0) finding files: redux: adding to list (9)
+0033.618 (0) finding files: js_composer: adding to list (10)
+0033.667 (0) finding files: wpo-plugins-tables-list.json: adding to list (11)
+0033.745 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0033.862 (0) Total entities for the zip file: 17 directories, 1092 files (0 skipped as non-modified), 23.9 MB
+0033.922 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0033.983 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0034.038 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0034.160 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0034.231 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0034.281 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 1092 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0035.228 (0) backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: size is now: 10.20 MB
+0035.357 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 600 files added (on-disk size: 10404.3 KB)
+0035.425 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 700 files added (on-disk size: 10404.3 KB)
+0035.480 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 800 files added (on-disk size: 10404.3 KB)
+0035.535 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 900 files added (on-disk size: 10404.3 KB)
+0035.590 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: 1000 files added (on-disk size: 10404.3 KB)
+0035.631 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 1092 files batched, 501 (1002) added so far); re-opening (prior size: 10404.3 KB)
+0036.566 (0) backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip.tmp: size is now: 21.40 MB
+0037.366 (0) Created uploads zip (0) - 24236.5 KB in 3.6 s (6780.1 KB/s) (sha1: c89f7b52e0b5f3eec8851070e06d921c92e3fa30, sha256: 7563c3a4af2ecc8971e97467e02a8feeb0f715670bd20d55aad6d68aac9da12c)
+0037.456 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.501 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.545 (0) Looking for candidates to backup in: /var/www/html/qls/wordpress/wp-content
+0037.590 (0) finding files: themes: skipping: this is the themes directory
+0037.634 (0) finding files: languages: adding to list (1)
+0037.679 (0) finding files: w3tc-config-old: adding to list (2)
+0037.723 (0) finding files: upgrade: skipping: excluded by options
+0037.768 (0) finding files: db.php: adding to list (3)
+0037.813 (0) finding files: plugins-old: adding to list (4)
+0037.857 (0) finding files: db.php-old: adding to list (5)
+0037.902 (0) finding files: advanced-cache.php-old: adding to list (6)
+0037.991 (0) finding files: w3tc-config: adding to list (7)
+0038.036 (0) finding files: cache: skipping: excluded by options
+0038.157 (0) finding files: updraft: skipping: this is the updraft directory
+0038.225 (0) finding files: index.php: adding to list (8)
+0038.303 (0) finding files: index.php-old: adding to list (9)
+0038.348 (0) finding files: themes-old: adding to list (10)
+0038.392 (0) finding files: plugins: skipping: this is the plugins directory
+0038.437 (0) finding files: advanced-cache.php: adding to list (11)
+0038.482 (0) finding files: languages-old: adding to list (12)
+0038.526 (0) finding files: uploads-old: adding to list (13)
+0038.571 (0) finding files: uploads: skipping: this is the uploads directory
+0038.685 (0) Total entities for the zip file: 11 directories, 496 files (0 skipped as non-modified), 16.4 MB
+0038.755 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0038.821 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0038.888 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0038.956 (0) Zip: backup_2020-06-30-2030_Barawa_127389a1d315-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0039.782 (0) backup_2020-06-30-2030_Barawa_127389a1d315-others.zip.tmp: size is now: 4.20 MB
+0040.221 (0) Created others zip (0) - 4297.8 KB in 1.6 s (2679.2 KB/s) (sha1: d8f567677022fe69c17dd2ff666e634b20d3f80c, sha256: fb347f2fe232accd314614ac99074c982b5e146a63beb154bd302837d42999ca)
+0040.399 (0) Saving backup status to database (elements: 8)
+0040.545 (0) Beginning creation of database dump (WordPress DB)
+0040.635 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0040.888 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1246 bytes total)
+0041.137 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0041.328 (0) Table wp_options: Total expected rows (approximate): 1175
+0041.483 (0) Table wp_options: Total rows added: 1188 in 0.11 seconds
+0041.528 (0) Table wp_options: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_options.table.gz - 350.2 KB)
+0041.685 (0) Table wp_users: Total expected rows (approximate): 1
+0041.743 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0041.796 (0) Table wp_users: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_users.table.gz - 0.6 KB)
+0041.956 (0) Table wp_usermeta: Total expected rows (approximate): 48
+0042.133 (0) Table wp_usermeta: Total rows added: 48 in 0.00 seconds
+0042.229 (0) Table wp_usermeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_usermeta.table.gz - 1.9 KB)
+0042.391 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 169
+0042.450 (0) Table wp_actionscheduler_actions: Total rows added: 169 in 0.02 seconds
+0042.491 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_actions.table.gz - 4.6 KB)
+0042.626 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0042.671 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0042.714 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_claims.table.gz - 0.4 KB)
+0042.850 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 3
+0042.897 (0) Table wp_actionscheduler_groups: Total rows added: 3 in 0.00 seconds
+0042.949 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0043.285 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 507
+0043.371 (0) Table wp_actionscheduler_logs: Total rows added: 507 in 0.02 seconds
+0043.440 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_logs.table.gz - 5 KB)
+0043.597 (0) Table wp_commentmeta: Total expected rows (approximate): 2
+0043.655 (0) Table wp_commentmeta: Total rows added: 2 in 0.00 seconds
+0043.708 (0) Table wp_commentmeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0043.876 (0) Table wp_comments: Total expected rows (approximate): 299
+0043.953 (0) Table wp_comments: Total rows added: 299 in 0.02 seconds
+0044.001 (0) Table wp_comments: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_comments.table.gz - 5 KB)
+0044.325 (0) Table wp_links: Total expected rows (approximate): 0
+0044.384 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0044.425 (0) Table wp_links: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_links.table.gz - 0.4 KB)
+0044.560 (0) Table wp_postmeta: Total expected rows (approximate): 5221
+0044.741 (0) Table wp_postmeta: Total rows added: 5429 in 0.14 seconds
+0044.784 (0) Table wp_postmeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_postmeta.table.gz - 53.3 KB)
+0044.918 (0) Table wp_posts: Total expected rows (approximate): 310
+0045.019 (0) Table wp_posts: Total rows added: 331 in 0.05 seconds
+0045.086 (0) Table wp_posts: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_posts.table.gz - 40.4 KB)
+0045.397 (0) Table wp_term_relationships: Total expected rows (approximate): 955
+0045.469 (0) Table wp_term_relationships: Total rows added: 955 in 0.02 seconds
+0045.520 (0) Table wp_term_relationships: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_term_relationships.table.gz - 2.9 KB)
+0045.688 (0) Table wp_term_taxonomy: Total expected rows (approximate): 497
+0045.761 (0) Table wp_term_taxonomy: Total rows added: 497 in 0.02 seconds
+0045.810 (0) Table wp_term_taxonomy: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_term_taxonomy.table.gz - 3.4 KB)
+0045.945 (0) Table wp_termmeta: Total expected rows (approximate): 230
+0045.991 (0) Table wp_termmeta: Total rows added: 230 in 0.01 seconds
+0046.036 (0) Table wp_termmeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_termmeta.table.gz - 1.7 KB)
+0046.293 (0) Table wp_terms: Total expected rows (approximate): 497
+0046.366 (0) Table wp_terms: Total rows added: 497 in 0.02 seconds
+0046.449 (0) Table wp_terms: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_terms.table.gz - 5 KB)
+0046.595 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 1
+0046.653 (0) Table wp_wc_category_lookup: Total rows added: 1 in 0.00 seconds
+0046.706 (0) Table wp_wc_category_lookup: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0046.842 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 21
+0046.900 (0) Table wp_wc_product_meta_lookup: Total rows added: 21 in 0.00 seconds
+0046.952 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_product_meta_lookup.table.gz - 0.8 KB)
+0047.162 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0047.234 (0) Table wp_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0047.287 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0047.456 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 15
+0047.514 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 15 in 0.00 seconds
+0047.555 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.6 KB)
+0047.758 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0047.843 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0047.915 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0048.174 (0) Table wp_blc_filters: Total expected rows (approximate): 0
+0048.302 (0) Table wp_blc_filters: Total rows added: 0 in 0.00 seconds
+0048.340 (0) Table wp_blc_filters: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_filters.table.gz - 0.3 KB)
+0048.475 (0) Table wp_blc_instances: Total expected rows (approximate): 3
+0048.523 (0) Table wp_blc_instances: Total rows added: 3 in 0.00 seconds
+0048.575 (0) Table wp_blc_instances: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_instances.table.gz - 0.6 KB)
+0048.722 (0) Table wp_blc_links: Total expected rows (approximate): 3
+0048.778 (0) Table wp_blc_links: Total rows added: 3 in 0.00 seconds
+0048.832 (0) Table wp_blc_links: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_links.table.gz - 2.6 KB)
+0049.001 (0) Table wp_blc_synch: Total expected rows (approximate): 218
+0049.081 (0) Table wp_blc_synch: Total rows added: 218 in 0.01 seconds
+0049.179 (0) Table wp_blc_synch: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_synch.table.gz - 1.4 KB)
+0049.414 (0) Table wp_masterslider_options: Total expected rows (approximate): 3
+0049.463 (0) Table wp_masterslider_options: Total rows added: 3 in 0.00 seconds
+0049.503 (0) Table wp_masterslider_options: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_masterslider_options.table.gz - 4.4 KB)
+0049.638 (0) Table wp_masterslider_sliders: Total expected rows (approximate): 0
+0049.684 (0) Table wp_masterslider_sliders: Total rows added: 0 in 0.00 seconds
+0049.728 (0) Table wp_masterslider_sliders: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_masterslider_sliders.table.gz - 0.5 KB)
+0049.863 (0) Table wp_redirection_404: Total expected rows (approximate): 0
+0049.908 (0) Table wp_redirection_404: Total rows added: 0 in 0.00 seconds
+0049.952 (0) Table wp_redirection_404: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_404.table.gz - 0.4 KB)
+0050.154 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0050.223 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0050.276 (0) Table wp_redirection_groups: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+0050.433 (0) Table wp_redirection_items: Total expected rows (approximate): 667
+0050.531 (0) Table wp_redirection_items: Total rows added: 667 in 0.04 seconds
+0050.578 (0) Table wp_redirection_items: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_items.table.gz - 10.9 KB)
+0050.779 (0) Table wp_redirection_logs: Total expected rows (approximate): 0
+0050.826 (0) Table wp_redirection_logs: Total rows added: 0 in 0.00 seconds
+0050.868 (0) Table wp_redirection_logs: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_logs.table.gz - 0.4 KB)
+0051.004 (0) Table wp_revslider_css: Total expected rows (approximate): 111
+0051.059 (0) Table wp_revslider_css: Total rows added: 111 in 0.01 seconds
+0051.249 (0) Table wp_revslider_css: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_css.table.gz - 4.9 KB)
+0051.406 (0) Table wp_revslider_css_bkp: Total expected rows (approximate): 47
+0051.455 (0) Table wp_revslider_css_bkp: Total rows added: 47 in 0.01 seconds
+0051.497 (0) Table wp_revslider_css_bkp: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_css_bkp.table.gz - 1.8 KB)
+0051.632 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0051.787 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0051.843 (0) Table wp_revslider_layer_animations: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0051.989 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0052.046 (0) Table wp_revslider_layer_animations_bkp: Total rows added: 0 in 0.00 seconds
+0052.155 (0) Table wp_revslider_layer_animations_bkp: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_layer_animations_bkp.table.gz - 0.3 KB)
+0052.335 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0052.392 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0052.446 (0) Table wp_revslider_navigations: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0052.581 (0) Table wp_revslider_navigations_bkp: Total expected rows (approximate): 0
+0052.628 (0) Table wp_revslider_navigations_bkp: Total rows added: 0 in 0.00 seconds
+0052.670 (0) Table wp_revslider_navigations_bkp: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_navigations_bkp.table.gz - 0.3 KB)
+0052.938 (0) Table wp_revslider_sliders: Total expected rows (approximate): 1
+0052.985 (0) Table wp_revslider_sliders: Total rows added: 1 in 0.00 seconds
+0053.027 (0) Table wp_revslider_sliders: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_sliders.table.gz - 2.9 KB)
+0053.308 (0) Table wp_revslider_sliders_bkp: Total expected rows (approximate): 0
+0053.354 (0) Table wp_revslider_sliders_bkp: Total rows added: 0 in 0.00 seconds
+0053.396 (0) Table wp_revslider_sliders_bkp: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_sliders_bkp.table.gz - 0.3 KB)
+0053.545 (0) Table wp_revslider_slides: Total expected rows (approximate): 2
+0053.603 (0) Table wp_revslider_slides: Total rows added: 2 in 0.00 seconds
+0053.655 (0) Table wp_revslider_slides: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_slides.table.gz - 2.1 KB)
+0053.824 (0) Table wp_revslider_slides_bkp: Total expected rows (approximate): 0
+0053.976 (0) Table wp_revslider_slides_bkp: Total rows added: 0 in 0.00 seconds
+0054.034 (0) Table wp_revslider_slides_bkp: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_slides_bkp.table.gz - 0.3 KB)
+0054.281 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 1
+0054.328 (0) Table wp_revslider_static_slides: Total rows added: 1 in 0.00 seconds
+0054.369 (0) Table wp_revslider_static_slides: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0054.505 (0) Table wp_revslider_static_slides_bkp: Total expected rows (approximate): 0
+0054.551 (0) Table wp_revslider_static_slides_bkp: Total rows added: 0 in 0.00 seconds
+0054.593 (0) Table wp_revslider_static_slides_bkp: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_static_slides_bkp.table.gz - 0.3 KB)
+0054.729 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0054.775 (0) Table wp_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0054.817 (0) Table wp_smush_dir_images: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_smush_dir_images.table.gz - 0.4 KB)
+0054.952 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 1
+0055.141 (0) Table wp_tm_taskmeta: Total rows added: 1 in 0.00 seconds
+0055.230 (0) Table wp_tm_taskmeta: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_tm_taskmeta.table.gz - 0.4 KB)
+0055.455 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0055.500 (0) Table wp_tm_tasks: Total rows added: 0 in 0.00 seconds
+0055.543 (0) Table wp_tm_tasks: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_tm_tasks.table.gz - 0.4 KB)
+0055.690 (0) Table wp_w3tc_cdn_pathmap: Total expected rows (approximate): 0
+0055.748 (0) Table wp_w3tc_cdn_pathmap: Total rows added: 0 in 0.00 seconds
+0055.802 (0) Table wp_w3tc_cdn_pathmap: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_w3tc_cdn_pathmap.table.gz - 0.4 KB)
+0055.971 (0) Table wp_w3tc_cdn_queue: Total expected rows (approximate): 0
+0056.028 (0) Table wp_w3tc_cdn_queue: Total rows added: 0 in 0.00 seconds
+0056.290 (0) Table wp_w3tc_cdn_queue: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_w3tc_cdn_queue.table.gz - 0.4 KB)
+0056.751 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 6
+0056.798 (0) Table wp_wc_admin_note_actions: Total rows added: 6 in 0.00 seconds
+0056.839 (0) Table wp_wc_admin_note_actions: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_admin_note_actions.table.gz - 0.8 KB)
+0056.975 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 5
+0057.022 (0) Table wp_wc_admin_notes: Total rows added: 5 in 0.00 seconds
+0057.063 (0) Table wp_wc_admin_notes: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_admin_notes.table.gz - 1.1 KB)
+0057.410 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 9
+0057.457 (0) Table wp_wc_customer_lookup: Total rows added: 9 in 0.00 seconds
+0057.498 (0) Table wp_wc_customer_lookup: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_customer_lookup.table.gz - 1 KB)
+0057.633 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0057.678 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0057.722 (0) Table wp_wc_download_log: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0057.856 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0057.894 (0) Table wp_wc_order_coupon_lookup: Total rows added: 0 in 0.00 seconds
+0057.948 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0058.116 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 1
+0058.162 (0) Table wp_wc_order_product_lookup: Total rows added: 1 in 0.00 seconds
+0058.204 (0) Table wp_wc_order_product_lookup: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_product_lookup.table.gz - 0.5 KB)
+0058.473 (0) Table wp_wc_order_stats: Total expected rows (approximate): 83
+0058.527 (0) Table wp_wc_order_stats: Total rows added: 83 in 0.01 seconds
+0058.572 (0) Table wp_wc_order_stats: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_stats.table.gz - 1.2 KB)
+0058.707 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0058.753 (0) Table wp_wc_order_tax_lookup: Total rows added: 0 in 0.00 seconds
+0058.796 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0058.931 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0058.978 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0059.019 (0) Table wp_wc_webhooks: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0059.155 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0059.201 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0059.243 (0) Table wp_woocommerce_api_keys: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0059.379 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0059.547 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0059.589 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0059.724 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0059.770 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0059.813 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0059.947 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0059.994 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0060.063 (0) Table wp_woocommerce_log: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0060.329 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 2
+0060.387 (0) Table wp_woocommerce_order_items: Total rows added: 2 in 0.00 seconds
+0060.440 (0) Table wp_woocommerce_order_items: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0060.686 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0060.750 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0060.820 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0061.045 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0061.179 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.03 seconds
+0061.222 (0) Table wp_woocommerce_sessions: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_sessions.table.gz - 1.6 KB)
+0061.357 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+0061.403 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0061.445 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0062.058 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 1
+0063.801 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 1 in 0.00 seconds
+0064.185 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0064.444 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 1
+0064.490 (0) Table wp_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0064.532 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0064.669 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0064.714 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0064.756 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0064.891 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0064.937 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0064.979 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0065.304 (0) Table wp_yith_wcwl: Total expected rows (approximate): 0
+0065.374 (0) Table wp_yith_wcwl: Total rows added: 0 in 0.00 seconds
+0065.426 (0) Table wp_yith_wcwl: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_yith_wcwl.table.gz - 0.4 KB)
+0065.561 (0) Table wp_yith_wcwl_lists: Total expected rows (approximate): 0
+0065.607 (0) Table wp_yith_wcwl_lists: Total rows added: 0 in 0.00 seconds
+0065.661 (0) Table wp_yith_wcwl_lists: finishing file (backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_yith_wcwl_lists.table.gz - 0.4 KB)
+0065.774 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_options.table.gz (1/71): adding to final database dump
+0065.902 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_users.table.gz (2/71): adding to final database dump
+0065.951 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_usermeta.table.gz (3/71): adding to final database dump
+0066.000 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_actions.table.gz (4/71): adding to final database dump
+0066.045 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_claims.table.gz (5/71): adding to final database dump
+0066.087 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_groups.table.gz (6/71): adding to final database dump
+0066.151 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_actionscheduler_logs.table.gz (7/71): adding to final database dump
+0066.382 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_commentmeta.table.gz (8/71): adding to final database dump
+0066.444 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_comments.table.gz (9/71): adding to final database dump
+0066.494 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_links.table.gz (10/71): adding to final database dump
+0066.533 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_postmeta.table.gz (11/71): adding to final database dump
+0066.611 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_posts.table.gz (12/71): adding to final database dump
+0066.673 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_term_relationships.table.gz (13/71): adding to final database dump
+0066.729 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_term_taxonomy.table.gz (14/71): adding to final database dump
+0066.783 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_termmeta.table.gz (15/71): adding to final database dump
+0066.826 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_terms.table.gz (16/71): adding to final database dump
+0066.876 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_category_lookup.table.gz (17/71): adding to final database dump
+0066.924 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_product_meta_lookup.table.gz (18/71): adding to final database dump
+0066.969 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_tax_rate_classes.table.gz (19/71): adding to final database dump
+0067.014 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_order_itemmeta.table.gz (20/71): adding to final database dump
+0067.058 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_payment_tokenmeta.table.gz (21/71): adding to final database dump
+0067.104 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_filters.table.gz (22/71): adding to final database dump
+0067.148 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_instances.table.gz (23/71): adding to final database dump
+0067.399 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_links.table.gz (24/71): adding to final database dump
+0067.472 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_blc_synch.table.gz (25/71): adding to final database dump
+0067.517 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_masterslider_options.table.gz (26/71): adding to final database dump
+0067.573 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_masterslider_sliders.table.gz (27/71): adding to final database dump
+0067.627 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_404.table.gz (28/71): adding to final database dump
+0067.672 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_groups.table.gz (29/71): adding to final database dump
+0067.717 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_items.table.gz (30/71): adding to final database dump
+0067.773 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_redirection_logs.table.gz (31/71): adding to final database dump
+0067.828 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_css.table.gz (32/71): adding to final database dump
+0067.888 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_css_bkp.table.gz (33/71): adding to final database dump
+0067.940 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_layer_animations.table.gz (34/71): adding to final database dump
+0067.985 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_layer_animations_bkp.table.gz (35/71): adding to final database dump
+0068.040 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_navigations.table.gz (36/71): adding to final database dump
+0068.096 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_navigations_bkp.table.gz (37/71): adding to final database dump
+0068.174 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_sliders.table.gz (38/71): adding to final database dump
+0068.264 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_sliders_bkp.table.gz (39/71): adding to final database dump
+0068.330 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_slides.table.gz (40/71): adding to final database dump
+0068.498 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_slides_bkp.table.gz (41/71): adding to final database dump
+0068.544 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_static_slides.table.gz (42/71): adding to final database dump
+0068.589 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_revslider_static_slides_bkp.table.gz (43/71): adding to final database dump
+0068.633 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_smush_dir_images.table.gz (44/71): adding to final database dump
+0068.678 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_tm_taskmeta.table.gz (45/71): adding to final database dump
+0068.723 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_tm_tasks.table.gz (46/71): adding to final database dump
+0068.767 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_w3tc_cdn_pathmap.table.gz (47/71): adding to final database dump
+0068.812 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_w3tc_cdn_queue.table.gz (48/71): adding to final database dump
+0068.857 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_admin_note_actions.table.gz (49/71): adding to final database dump
+0068.902 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_admin_notes.table.gz (50/71): adding to final database dump
+0068.947 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_customer_lookup.table.gz (51/71): adding to final database dump
+0069.020 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_download_log.table.gz (52/71): adding to final database dump
+0069.411 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_coupon_lookup.table.gz (53/71): adding to final database dump
+0069.881 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_product_lookup.table.gz (54/71): adding to final database dump
+0070.031 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_stats.table.gz (55/71): adding to final database dump
+0070.072 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_order_tax_lookup.table.gz (56/71): adding to final database dump
+0070.115 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_wc_webhooks.table.gz (57/71): adding to final database dump
+0070.174 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_api_keys.table.gz (58/71): adding to final database dump
+0070.274 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_attribute_taxonomies.table.gz (59/71): adding to final database dump
+0070.350 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (60/71): adding to final database dump
+0070.394 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_log.table.gz (61/71): adding to final database dump
+0070.439 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_order_items.table.gz (62/71): adding to final database dump
+0070.495 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_payment_tokens.table.gz (63/71): adding to final database dump
+0070.640 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_sessions.table.gz (64/71): adding to final database dump
+0070.695 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_shipping_zone_locations.table.gz (65/71): adding to final database dump
+0070.741 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_shipping_zone_methods.table.gz (66/71): adding to final database dump
+0070.796 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_shipping_zones.table.gz (67/71): adding to final database dump
+0070.852 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_tax_rate_locations.table.gz (68/71): adding to final database dump
+0070.907 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_woocommerce_tax_rates.table.gz (69/71): adding to final database dump
+0070.963 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_yith_wcwl.table.gz (70/71): adding to final database dump
+0071.019 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db-table-wp_yith_wcwl_lists.table.gz (71/71): adding to final database dump
+0071.084 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db.gz: finished writing out complete database file (480 KB)
+0071.387 (0) Total database tables backed up: 71 (backup_2020-06-30-2030_Barawa_127389a1d315-db.gz, size: 525684, sha1: 6fe9d562be0876c47303caa6b1405b691ae1069d, sha256: c49ec870798a5e1c5072d129aee76b2a0fbff53f52b7ad18f0daf63cf05a7d19)
+0071.566 (0) backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0071.722 (0) backup_2020-06-30-2030_Barawa_127389a1d315-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0071.768 (0) backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0071.813 (0) backup_2020-06-30-2030_Barawa_127389a1d315-others.zip: others: This file has not yet been successfully uploaded: will queue
+0071.857 (0) backup_2020-06-30-2030_Barawa_127389a1d315-db.gz: db: This file has not yet been successfully uploaded: will queue
+0071.902 (0) Saving backup history. Total backup size: 94.2 MB
+0072.006 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0072.173 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0072.264 (0) No remote despatch: user chose no remote backup service
+0072.338 (0) Recording as successfully uploaded: backup_2020-06-30-2030_Barawa_127389a1d315-plugins.zip
+0072.427 (0) Recording as successfully uploaded: backup_2020-06-30-2030_Barawa_127389a1d315-themes.zip
+0072.516 (0) Recording as successfully uploaded: backup_2020-06-30-2030_Barawa_127389a1d315-uploads.zip
+0072.605 (0) Recording as successfully uploaded: backup_2020-06-30-2030_Barawa_127389a1d315-others.zip
+0072.806 (0) Recording as successfully uploaded: backup_2020-06-30-2030_Barawa_127389a1d315-db.gz
+0072.941 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0072.997 (0) Number of backup sets in history: 3; groups (db): 1
+0073.051 (0) Examining (for databases) backup set with group_id=0, nonce=127389a1d315, datestamp=1593541840 (Jun 30 2020 18:30:40)
+0073.095 (0) This backup set is the backup set just made, so will not be deleted.
+0073.096 (0) Examining (for databases) backup set with group_id=0, nonce=018a60fe252c, datestamp=1593539388 (Jun 30 2020 17:49:48)
+0073.096 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0073.173 (0) Examining (for databases) backup set with group_id=0, nonce=d28dae7273a0, datestamp=1593423855 (Jun 29 2020 09:44:15)
+0073.173 (0) 1593423855: db: this set includes a database (backup_2020-06-29-1144_Barawa_d28dae7273a0-db.gz); db count is now 2
+0073.173 (0) 1593423855: db: over retain limit (2); will delete this database
+0073.174 (0) Delete file: backup_2020-06-29-1144_Barawa_d28dae7273a0-db.gz, service=none
+0073.259 (0) Deleting local copy (backup_2020-06-29-1144_Barawa_d28dae7273a0-db.gz)
+0073.397 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0073.452 (0) Number of backup sets in history: 3; groups (files): 1
+0073.508 (0) Examining (for files) backup set with nonce=127389a1d315, datestamp=1593541840 (Jun 30 2020 18:30:40)
+0073.508 (0) This backup set is the backup set just made, so will not be deleted.
+0073.564 (0) This backup set is the backup set just made, so will not be deleted.
+0073.564 (0) This backup set is the backup set just made, so will not be deleted.
+0073.565 (0) This backup set is the backup set just made, so will not be deleted.
+0073.566 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0073.620 (0) Examining (for files) backup set with nonce=018a60fe252c, datestamp=1593539388 (Jun 30 2020 17:49:48)
+0073.620 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0073.621 (0) Examining (for files) backup set with nonce=d28dae7273a0, datestamp=1593423855 (Jun 29 2020 09:44:15)
+0073.621 (0) plugins: over retain limit (2); will delete this file entity
+0073.621 (0) themes: over retain limit (2); will delete this file entity
+0073.621 (0) uploads: over retain limit (2); will delete this file entity
+0073.621 (0) others: over retain limit (2); will delete this file entity
+0073.621 (0) Delete file: backup_2020-06-29-1144_Barawa_d28dae7273a0-plugins.zip, service=none
+0073.675 (0) Deleting local copy (backup_2020-06-29-1144_Barawa_d28dae7273a0-plugins.zip)
+0073.812 (0) Delete file: backup_2020-06-29-1144_Barawa_d28dae7273a0-themes.zip, service=none
+0073.988 (0) Deleting local copy (backup_2020-06-29-1144_Barawa_d28dae7273a0-themes.zip)
+0074.034 (0) Delete file: backup_2020-06-29-1144_Barawa_d28dae7273a0-uploads.zip, service=none
+0074.078 (0) Deleting local copy (backup_2020-06-29-1144_Barawa_d28dae7273a0-uploads.zip)
+0074.198 (0) Delete file: backup_2020-06-29-1144_Barawa_d28dae7273a0-others.zip, service=none
+0074.303 (0) Deleting local copy (backup_2020-06-29-1144_Barawa_d28dae7273a0-others.zip)
+0074.426 (0) This backup set is now empty; will remove from history
+0074.471 (0) Deleting log file (log.d28dae7273a0.txt)
+0074.527 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0074.672 (0) Resume backup (127389a1d315, 0): finish run
+0074.806 (0) Decremented the semaphore (fd) by 1
+0075.073 (0) Semaphore (fd) unlocked
+0075.184 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0075.397 (0) The backup apparently succeeded and is now complete
+0075.452 (0) No email will/can be sent - the user has not configured an email address.
+0075.497 (0) La sauvegarde a réussie. Elle est maintenant terminée.

@@ -1,0 +1,2 @@
+2020-07-01T16:54:47+00:00 CRITICAL Cannot redeclare trend_skin_body_class() (previously declared in /var/www/html/qls/wordpress/wp-content/themes/trend/functions.php:193) dans /var/www/html/qls/wordpress/wp-content/themes/trend/functions.php à la ligne 193
+

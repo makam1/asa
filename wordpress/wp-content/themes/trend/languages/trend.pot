@@ -1,0 +1,645 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: trend/comments.php:62
+msgid ""
+msgstr ""
+
+#. Text in echo
+#: trend/templates/header-template1.php:34
+#: trend/templates/header-template2.php:33
+#: trend/templates/header-template3.php:33
+#: trend/templates/header-template4.php:33
+msgid " or "
+msgstr ""
+
+#. Text in function
+#: trend/inc/custom-comments.php:32
+msgid "%1$s at %2$s / "
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "&#171;"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "&#187;"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:48
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "404 Not Found"
+msgstr ""
+
+#. Text in echo
+#: trend/404.php:16
+msgid "404 Page not found"
+msgstr ""
+
+#. Text in function
+#: trend/inc/custom-comments.php:30
+msgid "<div class=\"author_name col-md-5\">%s</div>"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Add a review"
+msgstr ""
+
+#. Text in echo
+#: trend/woocommerce/add-to-wishlist.php:21
+msgid "Added!"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/add-to-wishlist.php:29
+msgid "Already Added"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Average"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Be the first to review"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Before footer #1"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Before footer #2"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Before footer #3"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Before footer #4"
+msgstr ""
+
+#. Text in function
+#: trend/index.php:38
+msgid "Blog"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/add-to-wishlist.php:23
+msgid "Browse Wishlist"
+msgstr ""
+
+#. Text in function
+#: trend/redux-framework/trend-config.php:158
+msgid "By %s"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Cancel <span>reply</span>"
+msgstr ""
+
+#. Text in function
+#: trend/category.php:32
+msgid "Category: "
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Comment"
+msgstr ""
+
+#. Text in echo
+#: trend/comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: trend/comments.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: trend/content-search.php:67
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: trend/footer.php:101
+msgid "Copyright by ModelTheme. All Rights Reserved."
+msgstr ""
+
+#. Text in echo
+#: trend/redux-framework/trend-config.php:146
+#: trend/redux-framework/trend-config.php:149
+msgid "Current theme preview"
+msgstr ""
+
+#. Text in function
+#: trend/redux-framework/trend-config.php:1
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Dismiss this notice"
+msgstr ""
+
+#. Text in function
+#: trend/content-page.php:22
+#: trend/inc/custom-comments.php:32
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Edit Your Profile"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: trend/templates/header-template1.php:144
+#: trend/templates/header-template2.php:97
+#: trend/templates/header-template3.php:97
+#: trend/templates/header-template5.php:90
+#: trend/templates/header-template6.php:68
+#: trend/templates/header-template7.php:68
+msgid "Enter your search term..."
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Footer "
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Footer Menu"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Footer sidebar"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Good"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Home"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Install Plugins"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Install Required Plugins"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. Text in echo
+#: trend/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Leave a <span>comment</span>"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Leave a <span>reply to %s</span>"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Log"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Log in"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Login"
+msgstr ""
+
+#. Text in echo
+#: trend/templates/header-template1.php:51
+#: trend/templates/header-template2.php:50
+#: trend/templates/header-template3.php:50
+#: trend/templates/header-template4.php:50
+msgid "My account"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:49
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: trend/content-single.php:286
+msgid "Next Post"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Not that bad"
+msgstr ""
+
+#. Text in echo
+#: trend/content-none.php:25
+msgid "Nothing Found"
+msgstr ""
+
+#. Text in echo
+#: trend/woocommerce/single-product-reviews.php:95
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Page"
+msgstr ""
+
+#. Text in echo
+#: trend/404.php:41
+msgid "Page Not Found !"
+msgstr ""
+
+#. Text in function
+#: trend/content-page.php:13
+#: trend/content-search.php:67
+#: trend/content-single.php:196
+#: trend/content.php:180
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Perfect"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Post comment"
+msgstr ""
+
+#. Text in function
+#: trend/content-single.php:276
+msgid "Previous Post"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Quick View"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Rate&hellip;"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product/rating.php:27
+msgid "Rated %s out of 5"
+msgstr ""
+
+#. Text in function
+#: trend/content-none.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Text in echo
+#: trend/content-single.php:204
+msgid "Related Posts"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Text in echo
+#: trend/woocommerce/single-product-reviews.php:22
+msgid "Reviews"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product/sale-flash.php:20
+msgid "Sale"
+msgstr ""
+
+#. Text in function
+#: trend/search.php:29
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Shop"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Sidebar"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Sidebar 1"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Site Admin"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. Text in echo
+#: trend/404.php:33
+msgid "Sorry, this page does not exist"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Submit"
+msgstr ""
+
+#. Text in function
+#: trend/tag.php:30
+msgid "Tag Archives: "
+msgstr ""
+
+#. Text in function
+#: trend/redux-framework/trend-config.php:160
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. Text in echo
+#: trend/404.php:34
+msgid "The link you clicked might be corrupted, or the page may have been removed."
+msgstr ""
+
+#. Text in echo
+#: trend/woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#. Text in function
+#: trend/redux-framework/trend-config.php:163
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#. Text in echo
+#: trend/content-none.php:26
+msgid "Try to search for posts via the form above"
+msgstr ""
+
+#. Text in echo
+#: trend/content-none.php:21
+msgid "Try to search using another term via the form above"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Update Required"
+msgstr ""
+
+#. Text in function
+#: trend/inc/tgm/class-tgm-plugin-activation.php:1
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Used above the footer #1"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Used above the footer #2"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Used above the footer #3"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Used above the footer #4"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Used on WooCommerce pages"
+msgstr ""
+
+#. Text in function
+#: trend/redux-framework/trend-config.php:159
+msgid "Version %s"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Very Poor"
+msgstr ""
+
+#. Text in echo
+#: trend/functions.php:466
+msgid "View your shopping cart"
+msgstr ""
+
+#. Text in echo
+#: trend/templates/header-template1.php:34
+#: trend/templates/header-template2.php:33
+#: trend/templates/header-template3.php:33
+#: trend/templates/header-template4.php:33
+msgid "Welcome! "
+msgstr ""
+
+#. Text in echo
+#: trend/templates/header-template1.php:34
+#: trend/templates/header-template2.php:33
+#: trend/templates/header-template3.php:33
+#: trend/templates/header-template4.php:33
+msgid "Welcome! Please "
+msgstr ""
+
+#. Text in echo
+#: trend/templates/header-template1.php:47
+#: trend/templates/header-template2.php:46
+#: trend/templates/header-template3.php:46
+#: trend/templates/header-template4.php:46
+msgid "Wishlist"
+msgstr ""
+
+#. Text in function
+#: trend/functions.php:467
+msgid "Woocommerce sidebar"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Your Rating"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product-reviews.php:56
+msgid "Your Review"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Your comment"
+msgstr ""
+
+#. Text in echo
+#: trend/inc/custom-comments.php:25
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Your email"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Your name"
+msgstr ""
+
+#. Text in function
+#: trend/comments.php:62
+msgid "Your website"
+msgstr ""
+
+#. Text in function
+#: trend/content-search.php:55
+#: trend/content.php:163
+msgid "by "
+msgstr ""
+
+#. Text in function
+#: trend/redux-framework/trend-config.php:163
+msgid "http://codex.WordPress.org/Child_Themes"
+msgstr ""
+
+#. Text in function
+#: trend/woocommerce/single-product/rating.php:29
+msgid "out of %s5%s"
+msgstr ""

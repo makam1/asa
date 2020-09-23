@@ -1,0 +1,658 @@
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+
+Project:    TREND
+Version:    1.0
+Author:     Modeltheme
+URL:        http://trendwp.modeltheme.com/woo/
+
+[Table of contents]
+
+1. Responsive Max_319px
+2. Responsive Min_320px Max_479px
+3. Responsive Max_479px
+4. Responsive Min_480px Max_767px
+5. Responsive Max_767px
+6. Responsive Min_768px
+7. Responsive Max_960px
+8. Responsive Max_1024px
+9. Responsive Min_1024px
+10. Responsive Min_1367px
+11. Responsive Min_768px and Max_1023px
+12. Responsive Max_600px
+13. Responsive Min_600px
+
+-------------------------------------------------------------------*/
+
+/*--- 1. Responsive Max_319px ---*/
+@media only screen and (max-width: 319px) {
+    footer .footer-top  .widget .widget-title,
+    .woocommerce.single .button.wc-forward,
+    .woocommerce.single div.product form.cart {
+        margin-bottom: 10px;
+    }
+    .woocommerce.single .wishlist-container {
+        margin-left: 0;
+        width: 100%;
+    }
+    footer .widget.widget_text {
+        margin-bottom: 20px;
+    }
+    .woocommerce.single .quantity .qty,
+    .woocommerce.single div.product .woocommerce-tabs ul.tabs li,
+    .woocommerce.single #respond input#submit, 
+    .woocommerce.single a.button, 
+    .woocommerce.single button.button, 
+    .woocommerce.single input.button{
+        width: 100%;
+    }
+    .woocommerce.single-product.single div.product form.cart .button {
+        padding-left: 30px;
+        text-align: left;
+    }
+    .woocommerce.single-product div.product form.cart div.quantity {
+        margin-bottom: 15px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .woocommerce.single-product .summary .product_meta {
+        margin-top: 10px;
+    }
+    /* Add new rules for this interval below */
+.woocommerce ul.products.columns-4 li.product, .woocommerce-page ul.products.columns-4 li.product {
+    width: 50% !important;
+}
+
+}
+
+
+/*--- 1. Responsive Min_320px Max_479px ---*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .testimonial-author-job > h4 {
+        font-size: 14px;
+    }
+
+    /* Add new rules for this interval below */
+.woocommerce ul.products.columns-4 li.product, .woocommerce-page ul.products.columns-4 li.product {
+    width: 50% !important;
+}
+}
+
+
+/*--- 3. Responsive Max_479px ---*/
+@media only screen and (max-width: 479px) {
+    .portfolio-items .col-md-2 {
+        width: 100%;
+        float: left;
+        margin-bottom: 80px;
+    }
+    .tp-leftarrow.default, 
+    .tp-rightarrow.default{
+        display: none;
+    }
+    body.woocommerce ul.products li.product.vc_col-md-4, .woocommerce-page ul.products li.product.vc_col-md-4 {
+        width: 100%;
+    }
+    .woocommerce ul.products li.product.vc_col-md-3, .woocommerce-page ul.products li.product.vc_col-md-3{
+        width: 100% !important;
+    }
+    .menu-item-has-children::after{
+        display: block !important;
+    }
+    /* Add new rules for this interval below */
+.woocommerce ul.products.columns-4 li.product, .woocommerce-page ul.products.columns-4 li.product {
+    width: 50% !important;
+}
+
+}
+
+
+/*--- 4. Responsive Min_480px Max_767px ---*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .portfolio-items .col-md-2 {
+        width: 50%;
+        float: left;
+        margin-bottom: 80px;
+    }
+    body.woocommerce ul.products li.product.vc_col-md-4, .woocommerce-page ul.products li.product.vc_col-md-4 {
+        width: 50% !important;
+    }
+    .woocommerce ul.products li.product.vc_col-md-3, .woocommerce-page ul.products li.product.vc_col-md-3{
+        width: 50% !important;
+    }
+    .menu-item-has-children::after{
+        display: none !important;
+    }
+    /* Add new rules for this interval below */
+
+}
+.woocommerce ul.products li.product[class*="col-md-"]{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.woocommerce.columns-3 ul.products li.product{
+    width: 33.33333%;
+}
+.woocommerce ul.products[class*="columns-"] li.product,
+body ul.products li.product.col-md-4{
+    margin-bottom: 30px !important;
+}
+/*--- 5. Responsive Max_767px ---*/
+@media only screen and (max-width: 767px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+.woocommerce ul.products[class*="columns-"] li.product, body ul.products li.product.col-md-4
+{
+        margin-bottom: 15px !important;
+        width: 50%;
+    }
+    .menu-item-has-children::after {
+        background: transparent none repeat scroll 0 0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        border-top: 7px solid #000;
+        color: rgba(255, 255, 255, 0.85);
+        content: "";
+        cursor: pointer;
+        height: 22px;
+        opacity: 0.5;
+        padding: 1px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 18px;
+        transform: none;
+        width: 0;
+    }    
+    body.mmm #mega_main_menu > .menu_holder > .menu_inner > ul > li.nav_woo_cart > .item_link::after, 
+    body.mmm #mega_main_menu > .menu_holder > .menu_inner > ul > li.nav_buddypress > .item_link::after, 
+    body.mmm #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link:last-child::after, 
+    body.mmm #mega_main_menu.primary_style-buttons > .menu_holder > .menu_inner > ul > li > .item_link::before, 
+    body.mmm #mega_main_menu.first-lvl-align-right > .menu_holder > .menu_inner > .nav_logo::before, 
+    body.mmm #mega_main_menu.first-lvl-align-center > .menu_holder > .menu_inner > .nav_logo::before, 
+    body.mmm #mega_main_menu.first-lvl-align-left.primary_style-buttons > .menu_holder > .menu_inner > .nav_logo::before, 
+    body.mmm #mega_main_menu.language_direction-rtl.first-lvl-align-left > .menu_holder > .menu_inner > .nav_logo::before, 
+    body.mmm #mega_main_menu.language_direction-rtl.first-lvl-align-center > .menu_holder > .menu_inner > .nav_logo::before, 
+    body.mmm #mega_main_menu.primary_style-buttons > .menu_holder > .menu_inner > ul > li.nav_search_box::before, 
+    body.mmm #mega_main_menu.direction-horizontal > .menu_holder > .menu_inner > ul > li:first-child > .item_link::before,
+    body.mmm #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link::before,
+    body.mmm #mega_main_menu > .menu_holder > .menu_inner > ul > li > .item_link::after{
+        display: none !important;
+    }
+    body.mmm #mega_main_menu.primary .menu-item {
+        padding: 0 !important;
+    }
+    body .navbar-header .logo {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .mmm .mobile_button {
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    } 
+    .mmm #mega_main_menu a{
+        width: 100% !important;
+        text-align: center;
+    } 
+    .mmm #mega_main_menu{
+        width: 100% !important;
+    }
+    footer p.copyright {
+        margin: 0 0 10px;
+        padding-top: 0;
+        text-align: center;
+    }
+    footer .payment-methods{
+        text-align: center;
+    }
+    footer .payment-methods img {
+        float: none !important;
+    }
+    #page .top-header{
+        padding: 15px 0;
+    }
+    .top-header .account-urls {
+        margin-top: 10px;
+    }
+    .widget .widget_address_social_icons .social-links > li:first-child{
+        margin-left: 0;
+    }
+    .widget .widget_address_social_icons .social-links a i {
+        padding: 13px;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    .widget .widget_address_social_icons .social-links a {
+        height: 40px;
+        width: 40px;
+    }
+    .widget .widget_address_social_icons .social-links > li {
+        height: 40px;
+        margin-bottom: 5px;
+        margin-right: 1px;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        width: 40px;
+    }
+    .trend-breadcrumbs h2{
+        font-size: 17px;
+    }
+    .latest-posts .single-post .vc_col-md-3.text-center {
+        display: none;
+    }    
+    .component.add-to-cart, 
+    .component.wishlist, 
+    .component.compare {
+        clear: both;
+        display: block;
+        width: auto;
+    }
+    footer nav.menu {
+        float: left;
+    }
+    footer nav.menu li:first-child a {
+        margin-left: 0;
+    }
+    body .navbar ul li:hover ul.sub-menu {
+        border: 0 none;
+        left: 0;
+        margin: 0;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        visibility: visible;
+        width: 100%;
+    }
+    .menu-item-has-children {
+        cursor: pointer;
+    }
+     .menu-item-has-children a:first-child { 
+        pointer-events: auto;
+    }
+    body .navbar ul li ul.sub-menu {
+        border: 0 none;
+        left: 0;
+        margin: 0;
+        opacity: 1;
+        position: relative;
+        top: 0;
+        display: none;
+        visibility: visible;
+        width: 100%;
+    }
+    body #navbar .sub-menu li:last-child,
+    body #navbar .sub-menu li {
+        border-bottom: 1px solid #3d4f61;
+        position: relative;
+    }
+    .widget.widget_flickr {
+        clear: both;
+    }
+    .widget_recent_entries_with_thumbnail .thumbnail-overlay {
+        width: 70px;
+    }
+    .widget_recent_entries_with_thumbnail .post-details {
+        padding: 0;
+    }
+    body .navbar-default .navbar-collapse, 
+    body .navbar-default .navbar-form {
+        border-color: rgba(0, 0, 0, 0);
+    }
+    .navbar-collapse.vc_col-md-9.collapse.in {
+        width: 100%;
+    }
+    .navbar-collapse li {
+        width: 100%;
+    }
+    .header_mini_cart {
+        display: none;
+    }
+    body .navbar ul li ul.sub-menu li::before {
+        content: "-";
+        position: absolute;
+        top: 10px;
+        color: white;
+        left: 14px;
+    }
+    .trend-breadcrumbs .breadcrumb,
+    .nav > li.shop_cart {
+        display: none;
+    }
+    .menu.nav-effect.nav-menu {
+        margin: 0;
+        text-align: left;
+        width: 100%;
+    }
+    .modeltheme_skin_switcher {
+        display: none;
+    }
+    body .navbar-nav > li > a {
+        border-bottom: 1px solid #3d4f61;
+        padding: 15px 0;
+    }
+    .navbar-collapse.collapse.in .menu .item:hover {
+        background: #253749;
+    }
+    .navbar-collapse .menu .item,
+    .navbar-collapse.collapse.in .menu .item {
+        text-align: left;
+        width: 100%;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+    .logo {
+        margin: 15px 0;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle {
+        background: transparent;
+        border: 2px solid;
+        margin: 17px 0;
+        transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #00adf1;
+    }
+    #trend-main-head .navbar-collapse.col-md-9,
+    #trend-main-head .navbar-collapse.collapse.col-md-9 {
+        margin: 0;
+        width: 100%;
+    }
+    .portfolio .col-md-2:nth-child(7n+5),
+    .portfolio .col-md-2:nth-child(7n+1){
+        margin-left: 0;
+        clear: none;
+    }
+    .testimonials .testimonials-container blockquote{
+        font-size: 16px;
+    }
+    .testimonials .testimonials-container blockquote::after,
+    .testimonials .testimonials-container blockquote::before{
+        font-size: 100px;
+        top: 34%;
+    }
+    .submit-comment .comment-form .form-comment {
+        padding: 0;
+    }
+
+    body .portfolio-items .vc_col-md-2:last-child{
+        margin-bottom: 0;
+    }
+    body .portfolio-items .vc_col-md-2{
+        margin-bottom: 80px;
+    }
+    body .portfolio-items .vc_col-md-2:nth-child(7n+5),
+    body .portfolio-items .vc_col-md-2:nth-child(7n+1) {
+        margin-left: 0;
+    }
+    body .testimonials-container blockquote * {
+        font-size: 16px;
+    }
+    .testimonials-container blockquote::after,
+    .testimonials-container blockquote::before{
+        content: "";
+        display: none;
+    }
+    .testimonials-container blockquote {
+        padding: 20px 0 20px;
+        margin: 0;
+    }
+    #navbar .menu .item a {
+        padding: 10px 0;
+        padding-left: 10px;
+    }
+    body .trend_header_slider .tp-leftarrow.default::after, 
+    body .trend_header_slider .tp-rightarrow.default::after {
+        font-size: 50px;
+        line-height: 60%;
+        opacity: 0.75;
+    }
+    body.woocommerce.single-product.single .summary.entry-summary {
+        width: 100% !important;
+    }
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 6. Responsive Min_768px ---*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .woocommerce ul.products li.product.vc_col-md-3, .woocommerce-page ul.products li.product.vc_col-md-3 {
+        width: 50% !important;
+    }
+    footer .payment-methods img {
+        float: none !important;
+    }
+    footer p.copyright {
+        margin: 0 0 10px;
+        padding-top: 0;
+        text-align: center;
+    }
+    footer .payment-methods{
+        text-align: center;
+    }
+    .navbar-nav > li > a {
+        padding: 30px 0;
+    }
+    .widget .widget_address_social_icons .social-links > li:first-child {
+        margin-left: 3px;
+    }
+    .navbar-collapse.collapse.vc_col-md-9 {
+        float: left;
+    }
+    body .navbar-nav > li > a,
+    body .menu .item a{
+        font-size: 12px;
+    }
+    #navbar .menu .item a {
+        padding: 30px 0;
+    }
+    .trend-breadcrumbs h2{
+        font-size: 19px;
+    }
+    .trend-breadcrumbs .breadcrumb{
+        display: none;
+    }
+    /* Add new rules for this interval below */
+
+}
+
+
+
+/*--- 7. Responsive Max_960px ---*/
+@media screen and (max-width: 1000px) {
+    .no-results.not-found {
+        margin-bottom: 80px;
+    }
+    .comment-form .form-comment {
+        padding: 0;
+    }
+    footer .footer-top h1.widget-title {
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .navbar-collapse.collapse.vc_col-md-9 {
+        width: 100%;
+    }    
+    .prev.page-numbers {
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }    
+    .sidebar-content {
+        margin-top: 30px;
+    }
+    .widget_trend_tweets_widget .tweet-title,
+    .widget_trend_tweets_widget .tweeter-profile {
+        padding: 0;
+    }
+    .widget_trend_tweets_widget .tweet-title .col-md-2,
+    .left-block-container .block-icon,
+    .latest-tweets .vc_col-md-2,
+    #contact_form .mt-half-spacer {
+        display: none;
+    }
+    #contact_form textarea,
+    #contact_form input {
+        margin-bottom: 15px;
+    }
+    .latest-posts .single-post .vc_col-md-3.text-center {
+        display: none;
+    }    
+    .component.add-to-cart, 
+    .component.wishlist, 
+    .component.compare {
+        clear: both;
+        display: block;
+        width: auto;
+    }
+    footer nav.menu {
+        float: left;
+    }
+    footer nav.menu li:first-child a {
+        margin-left: 0;
+    }
+    .widget.widget_flickr {
+        clear: both;
+    }
+    .widget_recent_entries_with_thumbnail .thumbnail-overlay {
+        width: 70px;
+    }
+    .widget_recent_entries_with_thumbnail .post-details {
+        padding: 0;
+    }
+    .logo {
+        margin: 15px 0;
+    }
+    .widget.widget_tag_cloud {
+        overflow: hidden;
+    }
+    .portfolio .col-md-2:nth-child(7n+5),
+    .portfolio .col-md-2:nth-child(7n+1){
+        margin-left: 0;
+        clear: none;
+    }
+    .testimonials .testimonials-container blockquote{
+        font-size: 16px;
+    }
+    .testimonials .testimonials-container blockquote::after,
+    .testimonials .testimonials-container blockquote::before{
+        font-size: 100px;
+        top: 34%;
+    }
+    .submit-comment .comment-form .form-comment {
+        padding: 0;
+    }
+    body .portfolio-items .vc_col-md-2:last-child{
+        margin-bottom: 0;
+    }
+    body .portfolio-items .vc_col-md-2{
+        margin-bottom: 80px;
+    }
+    body .portfolio-items .vc_col-md-2:nth-child(7n+5),
+    body .portfolio-items .vc_col-md-2:nth-child(7n+1) {
+        margin-left: 0;
+    }
+    body .testimonials-container blockquote * {
+        font-size: 16px;
+    }
+    .testimonials-container blockquote::after,
+    .testimonials-container blockquote::before{
+        content: "";
+        display: none;
+    }
+    .testimonials-container blockquote {
+        padding: 20px 0 20px;
+        margin: 0;
+    }
+
+    body .trend_header_slider .tp-leftarrow.default::after, 
+    body .trend_header_slider .tp-rightarrow.default::after {
+        font-size: 50px;
+        line-height: 60%;
+        opacity: 0.75;
+    }
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 8. Responsive Max_1024px ---*/
+@media only screen and (max-width: 1024px) {
+    .newspaper-info-bordered .col-md-5 {
+        text-align: center;
+        display: none;
+    }
+    .newspaper-info .newspaper-info-bordered {
+        padding: 15px 0;
+        border: 0 none;
+    }
+    .trend_shortcode_blog .post {
+        margin-bottom: 30px;
+    }
+
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 9. Responsive Min_1024px ---*/
+@media only screen and (min-width: 1024px) {
+
+
+
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 10. Responsive Min_1367px ---*/
+@media only screen and (min-width: 1367px) {
+
+
+
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 11. Responsive Min_768px and Max_1023px ---*/
+@media only screen and (min-width: 768px) and (min-width: 1023px){
+
+
+
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 12. Responsive Max_600px ---*/
+@media only screen and (max-width: 600px) {
+
+
+
+    /* Add new rules for this interval below */
+
+}
+
+
+/*--- 13. Responsive Min_600px ---*/
+@media only screen and (min-width: 600px) {
+
+
+
+    /* Add new rules for this interval below */
+
+}

@@ -66,7 +66,7 @@ class EvenementController extends AbstractController
         $today=$date->format('yy-m-d');
         $j=$date->format('yy-m-D');
         $jour = substr($j,8);
-        $lundi='Mon';
+        $lundi='Wed';
         if($jour==$lundi){
             $semaine=$date->modify('+'.$jours.'day');
             $s=$semaine->format('yy-m-d');
