@@ -53,11 +53,6 @@ class Evenement
      */
     private $heurefin;
 
-    /**
-     * @Groups({"event"})
-     * @ORM\Column(type="string", length=255)
-     */
-    private $statut;
 
     /**
      * @Groups({"event"})
@@ -65,16 +60,24 @@ class Evenement
      */
     private $groupe;
 
-    /**
-     * @Groups({"event"})
-     * @ORM\ManyToOne(targetEntity="App\Entity\Enfant", inversedBy="evenements")
-     */
-    private $enfant;
+   
 
     /**
      * @ORM\Column(type="string", length=20)
      */
     private $frequence;
+
+    /**
+     * @Groups({"event"})
+     * @ORM\ManyToOne(targetEntity="App\Entity\Enfant", inversedBy="evenements")
+     * @ORM\JoinColumn(name="enfant_id", referencedColumnName="id")
+     */
+    private $enfant;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $user;
 
 
     public function getId(): ?int
@@ -143,18 +146,6 @@ class Evenement
         return $this;
     }
 
-    public function getStatut(): ?string
-    {
-        return $this->statut;
-    }
-
-    public function setStatut(string $statut): self
-    {
-        $this->statut = $statut;
-
-        return $this;
-    }
-
     public function getGroupe(): ?Groupe
     {
         return $this->groupe;
@@ -163,6 +154,19 @@ class Evenement
     public function setGroupe(?Groupe $groupe): self
     {
         $this->groupe = $groupe;
+
+        return $this;
+    }
+
+
+    public function getFrequence(): ?string
+    {
+        return $this->frequence;
+    }
+
+    public function setFrequence(string $frequence): self
+    {
+        $this->frequence = $frequence;
 
         return $this;
     }
@@ -179,14 +183,14 @@ class Evenement
         return $this;
     }
 
-    public function getFrequence(): ?string
+    public function getUser(): ?int
     {
-        return $this->frequence;
+        return $this->user;
     }
 
-    public function setFrequence(string $frequence): self
+    public function setUser(?int $user): self
     {
-        $this->frequence = $frequence;
+        $this->user = $user;
 
         return $this;
     }

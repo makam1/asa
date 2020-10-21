@@ -33,6 +33,7 @@ class Enfant
     private $niveauscolaire;
 
     /**
+     * @Groups({"event"})
      * @ORM\OneToOne(targetEntity="App\Entity\User", cascade={"persist", "remove"})
      * @ORM\JoinColumn(nullable=false)
      */
@@ -40,7 +41,7 @@ class Enfant
 
 
     /**
-     * @Groups({"event"})
+     * @Groups({"event","enfant"})
      * @ORM\Column(type="string", length=255, nullable=true)
      */
     private $couleur;
@@ -54,6 +55,8 @@ class Enfant
     {
         $this->evenements = new ArrayCollection();
     }
+
+   
 
     public function getId(): ?int
     {
@@ -139,4 +142,6 @@ class Enfant
 
         return $this;
     }
+
+   
 }

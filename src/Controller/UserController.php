@@ -12,6 +12,7 @@ use App\Form\ProfilType;
 use App\Entity\Evenement;
 use App\Form\EvenementType;
 use App\Repository\UserRepository;
+use App\Repository\EnfantRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -79,35 +80,7 @@ class UserController extends AbstractController
         return new JsonResponse(['token' =>$token]);
         }   
     }
-    /**
-     * @Route("/login/inscription", name="inscription", methods={"GET","POST"})
-     * 
-     */
-    public function inscription(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder,SerializerInterface $serializer,ValidatorInterface $validator): Response
-    {
 
-        $utilisateur = new User();
-        $groupe= new Groupe();
-
-        $form = $this->createForm(UserType::class, $utilisateur);
-        $form->handleRequest($request);
-        $data=$request->request->all();
-
-        $form->submit($data);
-
-        $hash = $encoder->encodePassword($utilisateur, $utilisateur->getPassword());
-        $utilisateur->setPassword($hash);
-        $groupe->setNomgroupe($utilisateur->getEmail());
-        $entityManager->persist($groupe);
-        $utilisateur->setGroupe($groupe);
-        $utilisateur->setRoles([$utilisateur->getRole()]);
-        $entityManager->persist($utilisateur);
-        $entityManager->flush(); 
-       
-        return new JsonResponse('Compte crée, Bienvenue'.$utilisateur->getUsername(),200, [
-            'Content-Type' => 'application/json'
-        ]);
-    }
 
     /**
      * @Route("/{id}/profil", name="profil", methods={"PATCH"})
@@ -183,13 +156,11 @@ class UserController extends AbstractController
         ]);
     }
 
-
-   
     /**
      * @Route("/evenement", name="evenement", methods={"GET","POST"})
      * 
      */
-    public function evenement(Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder,SerializerInterface $serializer,ValidatorInterface $validator): Response
+    public function evenement(EnfantRepository $enfant,Request $request, EntityManagerInterface $entityManager, UserPasswordEncoderInterface $encoder,SerializerInterface $serializer,ValidatorInterface $validator): Response
     {
         $g=$this->getUser()->getGroupe();
         $event = new Evenement();
@@ -210,7 +181,10 @@ class UserController extends AbstractController
         if($event->getheurefin()==null){
             $event->setheurefin('00:00');   
         }
+        $enfant_id=$enfant->findBy(array('user'=>$event->getUser()));
+
         $event->setGroupe($g);   
+        $event->setEnfant($enfant_id[0]);
         $entityManager->persist($event);
         $entityManager->flush();
             

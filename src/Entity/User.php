@@ -86,7 +86,7 @@ class User implements UserInterface
     private $role;
 
     /** 
-     * @Groups({"users"})
+     * @Groups({"users","enfant"})
      * NOTE: This is not a mapped field of entity metadata, just a simple property.
     * 
     * @Vich\UploadableField(mapping="user_profil", fileNameProperty="imageName",)
@@ -96,13 +96,18 @@ class User implements UserInterface
    private $imageFile;
 
    /**
-    * @Groups({"users"})
+    * @Groups({"users","enfant"})
     * @ORM\Column(type="string")
     *
     * @var string|null
     */
    private $imageName;
 
+ /**
+  * @Groups({"enfant"})
+     * @ORM\OneToOne(targetEntity="App\Entity\Enfant", mappedBy="user")
+     */
+    private $enfant;
 
     public function getId(): ?int
     {
@@ -301,4 +306,24 @@ class User implements UserInterface
    {
        return $this->imageName;
    }
+
+    /**
+     * Get the value of enfant
+     */ 
+    public function getEnfant()
+    {
+        return $this->enfant;
+    }
+
+    /**
+     * Set the value of enfant
+     *
+     * @return  self
+     */ 
+    public function setEnfant($enfant)
+    {
+        $this->enfant = $enfant;
+
+        return $this;
+    }
 }

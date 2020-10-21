@@ -66,7 +66,7 @@ class EvenementController extends AbstractController
         $today=$date->format('yy-m-d');
         $j=$date->format('yy-m-D');
         $jour = substr($j,8);
-        $lundi='Wed';
+        $lundi='Mon';
         if($jour==$lundi){
             $semaine=$date->modify('+'.$jours.'day');
             $s=$semaine->format('yy-m-d');
@@ -78,6 +78,23 @@ class EvenementController extends AbstractController
             ]);
         }
         $data = $serializer->serialize($events, 'json',['groups' => ['event']]);
+        return new Response($data, 200, [
+            'Content-Type'=>  'application/json'
+        ]);
+    }
+    /**
+     * @Route("/today", name="today", methods={"GET"})
+     *  
+     */
+    public function today(EvenementRepository $event,SerializerInterface $serializer): Response
+    {
+        $id=$this->getUser()->getGroupe()->getId();
+        $date= new \DateTime(); 
+        $today=$date->format('yy-m-d');
+    
+            $query = $this->getDoctrine()->getManager()->createQuery("SELECT u FROM App:Evenement u WHERE u.datedebut ="."'$today'"."AND u.groupe ="."'$id'"."");
+            $part = $query->getResult();
+        $data = $serializer->serialize($part, 'json',['groups' => ['event']]);
         return new Response($data, 200, [
             'Content-Type'=>  'application/json'
         ]);
@@ -112,4 +129,16 @@ class EvenementController extends AbstractController
             'Content-Type'=>  'application/json'
         ]);
     }
+    /**
+     * @Route("/{id}/detail", name="event_show", methods={"GET"})
+     */
+    public function show(Evenement $event,SerializerInterface $serializer): Response
+    {
+        $data = $serializer->serialize($event, 'json',['groups' => ['event']]);
+
+        return new Response($data, 200, [
+            'Content-Type'=>  'application/json'
+        ]);
+    }
+    
 }
